@@ -8,7 +8,7 @@ ID,DataCite-Property,Occ,Definition,"allowed values, other constraints",comments
 99.4.b,schemeURI,0-1,URI of the name identfier schema,text,"URL, DOI, PID, URI",,,,,,,,,,,,,,,,,,,
 99.5,maturityCheckMetricVersion,1,version of the metric,text,"Commonly, more than one person/organization is involved -- but, at least one. Question: How to link data to publications when both were reviewer by the same process?",,,,,,,,,,,,,,,,,,,
 99.6,maturityCheckPerformedBy,1-n,information on who performed the quality assurance,text,,,,,,,,,,,,,,,,,,,,
-99.6.a,maturityCheckPerformedByType,1,"function of person/organization in the context of this dataset,text,controlled list of possible roles: data provider, creator, publisher, external reviewer, ...",,,,,,,,,,,,,,,,,,,
+99.6.a,maturityCheckPerformedByType,1,"function of person/organization in the context of this dataset",text,"controlled list of possible roles: data provider, creator, publisher, external reviewer, ...",,,,,,,,,,,,,,,,,,,
 99.6.1,maturityCheckPerformedByName,1,name of person/organization,text,,,,,,,,,,,,,,,,,,,,
 99.6.2,maturityCheckPerformedByIdentifier,1-n,ID of person/organization,text,,,,,,,,,,,,,,,,,,,,
 99.6.2.a,maturityCheckPerformedByIdentifierScheme,1,Name of the identifier schema,text,,,,,,,,,,,,,,,,,,,,
