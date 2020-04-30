@@ -34,17 +34,17 @@
     <maturityCheckPerformedBys>
         <maturityCheckPerformedBy maturityCheckPerformedByType="Publisher">
             <maturityCheckPerformedByName>WDCC</maturityCheckPerformedByName>
-            <maturityCheckPerformedByIDs>
-                <maturityCheckPerformedByID maturityCheckPerformedByIDScheme="DOI" schemeURI="https://doi.org">0000-0001-8574-9093</maturityCheckPerformedByID>
-                <maturityCheckPerformedByID maturityCheckPerformedByIDScheme="ROR" schemeURI="https://ror.org">03ztgj037</maturityCheckPerformedByID>
-                <maturityCheckPerformedByID maturityCheckPerformedByIDScheme="GRID" schemeURI="https://grid.ac/institutes/">grid.424215.4</maturityCheckPerformedByID>
-                <maturityCheckPerformedByID maturityCheckPerformedByIDScheme="ISNI" schemeURI="http://isni.org/isni/">0000000403741955</maturityCheckPerformedByID>
-                <maturityCheckPerformedByID maturityCheckPerformedByIDScheme="wikidata" schemeURI="https://www.wikidata.org/wiki/">Q1205784</maturityCheckPerformedByID>
-            </maturityCheckPerformedByIDs>
+            <maturityCheckPerformedByIdentifiers>
+                <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="DOI" schemeURI="https://doi.org">0000-0001-8574-9093</maturityCheckPerformedByIdentifier>
+                <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ROR" schemeURI="https://ror.org">03ztgj037</maturityCheckPerformedByIdentifier>
+                <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="GRID" schemeURI="https://grid.ac/institutes/">grid.424215.4</maturityCheckPerformedByIdentifier>
+                <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ISNI" schemeURI="http://isni.org/isni/">0000000403741955</maturityCheckPerformedByIdentifier>
+                <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="wikidata" schemeURI="https://www.wikidata.org/wiki/">Q1205784</maturityCheckPerformedByIdentifier>
+            </maturityCheckPerformedByIdentifiers>
         </maturityCheckPerformedBy>
         <maturityCheckPerformedBy maturityCheckPerformedByType="Creator">
             <maturityCheckPerformedByName>Neumann, Daniel</maturityCheckPerformedByName>
-            <maturityCheckPerformedByID maturityCheckPerformedByIDScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</maturityCheckPerformedByID>
+            <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</maturityCheckPerformedByIdentifier>
         </maturityCheckPerformedBy>
     </maturityCheckPerformedBys>
     <maturityCheckResult>
