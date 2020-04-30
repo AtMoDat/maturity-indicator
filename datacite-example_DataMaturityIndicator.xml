@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DataMaturityIndicator>
+  <FAIRnessEvaluations>
+    <FAIRnessEvaluation>
+        <FAIRmetricName FAIRmetricType="Publication">D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories</FAIRmetricName>
+        <FAIRmetricPID identifierType="DOI">10.5281/zenodo.3678716</FAIRmetricPID>
+        <FAIRmetricVersion>1.0</FAIRmetricVersion>
+        <FAIRmetricMachineReadable>False</FAIRmetricMachineReadable>
+        <FAIRmetricResult>
+            <FAIRmetricResultURI identifierType="URL">https://www.some.place.de/some.thing.pdf</FAIRmetricResultURI>
+            <FAIRmetricIndicators>
+                <FAIRmetricIndicator FAIRmetricIndicatorID="FsF-F1-01D" FAIRmetricIndicatorName="Universally unique identifier" FAIRmetricIndicatorUnit="none">1.0</FAIRmetricIndicator>
+                <FAIRmetricIndicator FAIRmetricIndicatorID="FsF-F1-02D" FAIRmetricIndicatorName="Persistent identifier" FAIRmetricIndicatorUnit="none">1.0</FAIRmetricIndicator>
+                <FAIRmetricIndicator FAIRmetricIndicatorID="FsF-A2-01M" FAIRmetricIndicatorName="Metadata preservation" FAIRmetricIndicatorUnit="none">0.9</FAIRmetricIndicator>
+            </FAIRmetricIndicators>
+            <FAIRmetricDate>2020-04-23T11:13:00</FAIRmetricDate>
+        </FAIRmetricResult>
+    </FAIRnessEvaluation>
+    <FAIRnessEvaluation>
+        <FAIRmetricName FAIRmetricType="Publication">FAIRness of WDCC - technical details</FAIRmetricName>
+        <FAIRmetricURI identifierType="URL">"https://www.dkrz.de/up/services/data-management/LTA/fairness/self-assessment-table"</FAIRmetricURI>
+        <FAIRmetricVersion>0.0</FAIRmetricVersion>
+        <FAIRmetricResult>
+            <FAIRmetricResultURI identifierType="URL">https://www.another.place.de/dkrz.fairness.MOMERGOMBSEMEP.pdf</FAIRmetricResultURI>
+            <FAIRmetricDate>2020-04-22T09:46:13</FAIRmetricDate>
+        </FAIRmetricResult>
+    </FAIRnessEvaluation>
+  </FAIRnessEvaluations>
+
+  <QualityMetrics>
+    <QualityMetric>
+        <qualityMetricName qualityMetricType="Publication">Quality Maturity Matrix (QMM)</qualityMetricName>
+        <qualityMetricPID identifierType="DOI">10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots</qualityMetricPID>
+        <qualityPerformedBys>
+            <qualityPerformedBy qualityPerformedByType="Publisher">
+                <qualityPerformedByName>WDCC</qualityPerformedByName>
+                <qualityPerformedByIDs>
+                    <qualityPerformedByID identifierType="DOI">0000-0001-8574-9093</qualityPerformedByID>
+                    <qualityPerformedByID identifierType="ROR">03ztgj037</qualityPerformedByID>
+                    <qualityPerformedByID identifierType="GRID">grid.424215.4</qualityPerformedByID>
+                    <qualityPerformedByID identifierType="ISNI">0000000403741955</qualityPerformedByID>
+                    <qualityPerformedByID identifierType="wikidata">Q1205784</qualityPerformedByID>
+                </qualityPerformedByIDs>
+            </qualityPerformedBy>
+            <qualityPerformedBy qualityPerformedByType="Creator">
+                <qualityPerformedByName>Neumann, Daniel</qualityPerformedByName>
+                <qualityPerformedByID identifierType="ORCID">0000-0001-8574-9093</qualityPerformedByID>
+            </qualityPerformedBy>
+        </qualityPerformedBys>
+        <qualityMetricVersion>Mar-2019</qualityMetricVersion>
+        <qualityResult>
+            <qualityResultURI identifierType="URL">https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP</qualityResultURI>
+            <qualityResultDate>2019-12-18</qualityResultDate>
+            <qualityResultIndicators>
+                <qualityResultIndicator qualityResultName="Consistency" qualityResultUnit="Level">4</qualityResultIndicator>
+                <qualityResultIndicator qualityResultName="Completeness" qualityResultUnit="Level">4</qualityResultIndicator>
+                <qualityResultIndicator qualityResultName="Accessibility" qualityResultUnit="Level">5</qualityResultIndicator>	
+                <qualityResultIndicator qualityResultName="Accuracy" qualityResultUnit="Level">4</qualityResultIndicator>
+            </qualityResultIndicators>
+        </qualityResult>
+    </QualityMetric>
+  </QualityMetrics>
+
+  <repositoryCertifications>
+    <repositoryCertification>
+        <certificationName>CORE TRUST SEAL</certificationName>
+        <certificationURI identifierType="URL">https://www.coretrustseal.org</certificationURI>
+        <certificationDate>2019-01-18</certificationDate>
+    </repositoryCertification>  
+    <repositoryCertification>
+        <certificationName >regular member of the World Data System</certificationName>
+        <certificationURI identifierType="URL">https://www.icsu-wds.org/</certificationURI>
+        <certificationDate>2019-01-18</certificationDate>
+    </repositoryCertification>
+  </repositoryCertifications>
+</DataMaturityIndicator>
+</resource>
