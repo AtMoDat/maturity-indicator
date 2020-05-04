@@ -11,7 +11,7 @@ DataMaturityCheck -> maturityCheckMetricType,questionaire
 DataMaturityCheck -> maturityCheckMetricIdentifier,https://www.ands-nectar-rds.org.au/fair-tool
 DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,"Neumann, Daniel"
 DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
-DataMaturityCheck -> maturityCheckResult -> 
+DataMaturityCheck -> maturityCheckResult,
 DataMaturityCheck -> maturityCheckResult -> maturityCheckResultDate,2020-05-04</maturityCheckResultDate>
 DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIdentifier,https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP
 DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,0.95
