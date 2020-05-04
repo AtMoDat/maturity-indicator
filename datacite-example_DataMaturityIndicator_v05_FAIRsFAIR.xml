@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4">
+    <identifier identifierType="DOI">10.26050/WDCC/MOMERGOMBSEMEP</identifier>
+    <!-- dropped `creator` for better readability --> 
+    <titles>
+        <title>MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP</title>
+    </titles>
+    <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
+    <publicationYear>2019</publicationYear>
+    <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
+    <DataMaturityCheck>
+        <maturityCheckMetricName>D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories</maturityCheckMetricName>
+        <maturityCheckMetricType>Publication</maturityCheckMetricType>
+        <maturityCheckMetricIsMachineReadable>False</maturityCheckMetricIsMachineReadable>
+        <maturityCheckMetricIdentifier maturityCheckMetricIdentifierScheme="DOI" schemeURI="https://doi.org/">10.5281/zenodo.3678716</maturityCheckMetricIdentifier>
+        <maturityCheckMetricVersion>1.0</maturityCheckMetricVersion>
+        <maturityCheckResult>
+            <maturityCheckResultDate>2020-04-23T11:13:00</maturityCheckResultDate>
+            <maturityCheckResultIdentifier maturityCheckResultIdentifierScheme="URL">https://www.this.url.does.not.exist</maturityCheckResultIdentifier>
+            <maturityCheckResultIndicators>
+                <maturityCheckResultIndicator maturityCheckResultIndicatorID="FsF-F1-01D" maturityCheckResultIndicatorName="Universally unique identifier" maturityCheckResultIndicatorUnit="none">1.0</maturityCheckResultIndicator>
+                <maturityCheckResultIndicator maturityCheckResultIndicatorID="FsF-F1-02D" maturityCheckResultIndicatorName="Persistent identifier" maturityCheckResultIndicatorUnit="none">1.0</maturityCheckResultIndicator>
+                <!-- FAIRsFAIR Developed more metrics but for this example we only show two. -->
+            </maturityCheckResultIndicators>
+        </maturityCheckResult>
+    </DataMaturityCheck>
+</resource>
