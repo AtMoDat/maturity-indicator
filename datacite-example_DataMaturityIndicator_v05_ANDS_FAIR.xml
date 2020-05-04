@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4">
+    <identifier identifierType="DOI">10.26050/WDCC/MOMERGOMBSEMEP</identifier>
+    <!-- dropped `creator` for better readability --> 
+    <titles>
+        <title>MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP</title>
+    </titles>
+    <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
+    <publicationYear>2019</publicationYear>
+    <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
+    <DataMaturityCheck>
+        <maturityCheckMetricName>ANDS FAIR data assessment tool</maturityCheckMetricName>
+        <maturityCheckMetricType>questionaire</maturityCheckMetricType>
+        <maturityCheckMetricIsMachineReadable>no</maturityCheckMetricIsMachineReadable>
+        <maturityCheckMetricIdentifier maturityCheckMetricIdentifierScheme="URL">https://www.ands-nectar-rds.org.au/fair-tool</maturityCheckMetricIdentifier>
+        <maturityCheckPerformedBy maturityCheckPerformedByType="Creator">
+            <maturityCheckPerformedByName>Neumann, Daniel</maturityCheckPerformedByName>
+            <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</maturityCheckPerformedByIdentifier>
+        </maturityCheckPerformedBy>
+        <maturityCheckResult>
+            <maturityCheckResultDate>2020-05-04</maturityCheckResultDate>
+            <maturityCheckResultIndicators>
+                <maturityCheckResultIndicator maturityCheckResultIndicatorName="Findable" maturityCheckResultIndicatorUnit="relative">0.95</maturityCheckResultIndicator>
+                <maturityCheckResultIndicator maturityCheckResultIndicatorName="Accessible" maturityCheckResultIndicatorUnit="relative">0.9</maturityCheckResultIndicator>
+                <maturityCheckResultIndicator maturityCheckResultIndicatorName="Interoperable" maturityCheckResultIndicatorUnit="relative">0.75</maturityCheckResultIndicator>	
+                <maturityCheckResultIndicator maturityCheckResultIndicatorName="Reusable" maturityCheckResultIndicatorUnit="relative">0.85</maturityCheckResultIndicator>
+            </maturityCheckResultIndicators>
+        </maturityCheckResult>
+    </DataMaturityCheck>
+</resource>
