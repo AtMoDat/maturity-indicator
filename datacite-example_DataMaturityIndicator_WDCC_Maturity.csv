@@ -15,7 +15,7 @@ DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,WD
 DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://ror.org/03ztgj037
 DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,http://isni.org/isni/0000000403741955
 DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Creator
-DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,Neumann, Daniel
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,"Neumann, Daniel"
 DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
 DataMaturityCheck -> maturityCheckResult -> 
 DataMaturityCheck -> maturityCheckResult -> maturityCheckResultDate,2019-12-18</maturityCheckResultDate>
