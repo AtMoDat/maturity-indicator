@@ -1,0 +1,28 @@
+Property,Value
+Identifier,http://doi.org/10.26050/WDCC/MOMERGOMBSEMEP
+# Comment: dropped `creator` for better readability,
+Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP
+Publisher,World Data Center for Climate (WDCC) at DKRZ
+PublicationYear,2019
+ResourceType,Digital
+ResourceType -> resourceTypeGeneral,Dataset
+DataMaturityCheck -> maturityCheckMetricName,ANDS FAIR data assessment tool
+DataMaturityCheck -> maturityCheckMetricType,questionaire
+DataMaturityCheck -> maturityCheckMetricIdentifier,https://www.ands-nectar-rds.org.au/fair-tool
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,Neumann, Daniel
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
+DataMaturityCheck -> maturityCheckResult -> 
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultDate,2020-05-04</maturityCheckResultDate>
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIdentifier,https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,0.95
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Findable
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,relative
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,0.9
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Accessible
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,relative
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,0.75
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Interoperable
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,relative
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,0.85
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Reusable
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,relative

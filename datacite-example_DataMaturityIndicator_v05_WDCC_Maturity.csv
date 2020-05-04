@@ -1,0 +1,34 @@
+Property,Value
+Identifier,http://doi.org/10.26050/WDCC/MOMERGOMBSEMEP
+# Comment: dropped `creator` for better readability,
+Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP
+Publisher,World Data Center for Climate (WDCC) at DKRZ
+PublicationYear,2019
+ResourceType,Digital
+ResourceType -> resourceTypeGeneral,Dataset
+DataMaturityCheck -> maturityCheckMetricName,Quality Maturity Matrix (QMM)
+DataMaturityCheck -> maturityCheckMetricType,Publication
+DataMaturityCheck -> maturityCheckMetricIdentifier,https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots
+DataMaturityCheck -> maturityCheckMetricVersion,Mar-2019
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Publisher
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,WDCC
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://ror.org/03ztgj037
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,http://isni.org/isni/0000000403741955
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Creator
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,Neumann, Daniel
+DataMaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
+DataMaturityCheck -> maturityCheckResult -> 
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultDate,2019-12-18</maturityCheckResultDate>
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIdentifier,https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,4
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Consistency
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,Level
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,4
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Completeness
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,Level
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,5
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Accessibility
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,Level
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator,4
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorName,Accuracy
+DataMaturityCheck -> maturityCheckResult -> maturityCheckResultIndicator -> maturityCheckResultIndicatorUnit,Level
