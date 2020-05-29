@@ -13,8 +13,8 @@ This Readme will be extended during May and June 2020 and further examples will 
 
 Also three example cases are provided -- each as `xml` and as `csv` file. The files are:
 
-* `datacite-example_DataMaturityIndicator_*.xml`
-* `datacite-example_DataMaturityIndicator_*.csv`
+* `example_DMI_*.xml`
+* `example_DMI_*.csv`
 
 The three examples are:
 
@@ -32,7 +32,7 @@ In alphabetic order:
 
 * [Anette Ganske](https://github.com/anganske)
 * Angelina Kraft
-* [Daniel Neumann](https://github.com/neumannd)
+* [Daniel Heydebreck](https://github.com/neumannd)
 * Hannes Thiemann
 * Heinke Hoeck
 
