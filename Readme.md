@@ -19,10 +19,10 @@ Also three example cases are provided -- each as `xml` and as `csv` file. The fi
 The three examples are:
 
 | metric                                       | file suffix      | URL                                                         |
-|----------------------------------------------|------------------|-------------------------------------------------------------|
-|  FAIRsFAIR Draft Recommendation ... FAIR ... | `_FAIRsFAIR`     | https://doi.org/10.5281/zenodo.3678716                      |
-| WDCC Quality Maturity Matrix (QMM)           | `_WDCC_Maturity` | https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots |
-| ANDS FAIR data assessment tool               | `_ANDS_FAIR`     | https://www.ands-nectar-rds.org.au/fair-tool                |
+|----------------------------------------------|------------------|---------------------------------------------------------------------------------------|
+|  FAIRsFAIR Draft Recommendation ... FAIR ... | `_FAIRsFAIR`     | https://doi.org/10.5281/zenodo.3678716                                                |
+| WDCC Quality Maturity Matrix (QMM)           | `_WDCC_Maturity` | https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots                           |
+| ARDC FAIR data assessment tool               | `ARDC_FAIR`      | https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/ |
 
 
 
