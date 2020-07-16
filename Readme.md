@@ -7,7 +7,7 @@ The Maturity Indicator is a draft extension to the DataCite Metadata Schema. The
 
 The conept does only provide metadata fields to insert maturity information. No maturity matrix/metric/measure is suggested. Thus, this concept is open to any kind of maturity measure.
 
-The draft containing the definition of metadata property and sub-properties is provided in the [formalization_DMI.csv](formalization_DMI.csv) file.
+The draft containing the definition of metadata property and sub-properties is provided in the [formalization_MI.csv](formalization_MI.csv) file.
 
 This Readme will be extended during May and June 2020 and further examples will be added.
 
@@ -16,8 +16,8 @@ This Readme will be extended during May and June 2020 and further examples will 
 
 Also three example cases are provided -- each as `xml` and as `csv` file. The files are:
 
-* `example_DMI_*.xml`
-* `example_DMI_*.csv`
+* `example_MI_*.xml`
+* `example_MI_*.csv`
 
 The three examples are:
 
@@ -44,4 +44,4 @@ In alphabetic order:
 
 # Acknowledgements:
 
-The Maturity Indicator draft was created within the AtMoDat project (**At**mospheric **Mo**del **Dat**a, https://www.atmodat.de). AtMoDat is funded by the German Federal Ministry for Education and Research within the framework of *Atmosph�ren-Modelldaten: Datenqualit�t, Kurationskriterien und DOI-Branding* (FKZ 16QK02A).
+The Maturity Indicator draft was created within the AtMoDat project (**At**mospheric **Mo**del **Dat**a, https://www.atmodat.de). AtMoDat is funded by the German Federal Ministry for Education and Research within the framework of *Atmosphaeren-Modelldaten: Datenqualitaet, Kurationskriterien und DOI-Branding* (FKZ 16QK02A).
