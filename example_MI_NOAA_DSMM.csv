@@ -1,0 +1,53 @@
+Property,Value
+Identifier,http://doi.org/10.26050/WDCC/MOMERGOMBSEMEP
+# Comment: dropped `creator` for better readability,
+Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP
+Publisher,World Data Center for Climate (WDCC) at DKRZ
+PublicationYear,2019
+ResourceType,Digital
+ResourceType -> resourceTypeGeneral,Dataset
+MaturityCheck -> maturityCheckSchemaVersion,v6.0
+MaturityCheck -> maturityCheckName,NOAA Data Stewardship Maturity Matrix (DSMM)
+MaturityCheck -> maturityCheckType,report/publication (Text)
+MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.2481/dsj.14-049
+MaturityCheck -> maturityCheckVersion,1.0
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Creator
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,"Heydebreck, Daniel"
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
+MaturityCheck -> maturityCheckPerformedDate,2020-07-20
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,preservability
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,4
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,accessibility
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,usability
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,production sustainability
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,2
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data quality assurance
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data quality control/monitoring
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,2
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data quality assessment
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,2
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,transparency/traceability
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data integrity
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
