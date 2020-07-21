@@ -5,12 +5,14 @@ Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitro
 Publisher,World Data Center for Climate (WDCC) at DKRZ
 PublicationYear,2019
 ResourceType,Digital
-ResourceType -> resourceTypeGeneral,Dataset
+RelatedIdentifier,https://doi.org/10.6084/m9.figshare.1211954 (isSupplementedBy)
+RelatedIdentifier,https://doi.org/10.5334/dsj-2019-041 (isSourceOf)
+RelatedIdentifier,https://doi.org/10.5281/ZENODO.3666260 (isCitedBy)
 MaturityCheck -> maturityCheckSchemaVersion,v6.0
 MaturityCheck -> maturityCheckName,NOAA Data Stewardship Maturity Matrix (DSMM)
 MaturityCheck -> maturityCheckType,report/publication (Text)
 MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.2481/dsj.14-049
-MaturityCheck -> maturityCheckVersion,1.0
+MaturityCheck -> maturityCheckVersion,12/09/2014 Rev.1
 MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Creator
 MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,"Heydebreck, Daniel"
 MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093

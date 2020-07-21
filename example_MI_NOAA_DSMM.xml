@@ -8,13 +8,18 @@
     <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
+    <relatedIdentifiers>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="isSupplementedBy">10.6084/m9.figshare.1211954</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="isSourceOf">10.5334/dsj-2019-041</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="isCitedBy">10.5281/ZENODO.3666260</relatedIdentifier>
+    </relatedIdentifiers>
     <MaturityCheck>
         <maturityCheckSchemaVersion>v6.0</maturityCheckSchemaVersion>
         <maturityCheckName>NOAA Data Stewardship Maturity Matrix (DSMM)</maturityCheckName>
         <maturityCheckDescription>Assessing the stewardship maturity of individual datasets is an essential part of ensuring and improving the way datasets are documented, preserved, and disseminated to users. It is a ­critical step towards meeting U.S. federal regulations, organizational requirements, and user needs. However, it is challenging to do so consistently and quantifiably. The Data ­Stewardship Maturity Matrix (DSMM), developed jointly by NOAA’s National Centers for Environmental Information (NCEI) and the Cooperative Institute for Climate and Satellites–North Carolina (CICS-NC), provides a uniform framework for consistently rating stewardship maturity of individual ­datasets in nine key components: preservability, accessibility, usability, production sustainability, data quality assurance, data quality control/monitoring, data quality assessment, transparency/traceability, and data integrity.</maturityCheckDescription>
         <maturityCheckResourceType maturityCheckResourceTypeGeneral="Text">report/publication</maturityCheckResourceType>
         <maturityCheckIdentifier maturityCheckIdentifierScheme="DOI" schemeURI="https://doi.org">10.2481/dsj.14-049</maturityCheckIdentifier>
-        <maturityCheckVersion>1.0</maturityCheckVersion>
+        <maturityCheckVersion>12/09/2014 Rev.1</maturityCheckVersion>
         <maturityCheckPerformedBys>
             <maturityCheckPerformedBy maturityCheckPerformedByType="Creator">
                 <maturityCheckPerformedByName>Heydebreck, Daniel</maturityCheckPerformedByName>
