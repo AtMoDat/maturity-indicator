@@ -1,0 +1,26 @@
+Property,Value
+Identifier,http://doi.org/10.26050/WDCC/MOMERGOMBSEMEP
+# Comment: dropped `creator` for better readability,
+Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP
+Publisher,World Data Center for Climate (WDCC) at DKRZ
+PublicationYear,2019
+ResourceType,Digital
+ResourceType -> resourceTypeGeneral,Dataset
+MaturityCheck -> maturityCheckSchemaVersion,v6.0
+MaturityCheck -> maturityCheckName,D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories
+MaturityCheck -> maturityCheckType,project report (Text)
+MaturityCheck -> maturityCheckIsMachineReadable,False
+MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.5281/zenodo.3678716
+MaturityCheck -> maturityCheckVersion,1.0
+MaturityCheck -> maturityCheckPerformedDate,2020-04-23T11:13:00
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Universally unique identifier
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricInternalIdentifier,FsF-F1-01D
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,1.0
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,none
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Persistent identifier
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricInternalIdentifier,FsF-F1-02D
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,1.0
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,none
+# Comment: FAIRsFAIR Developed more metrics but for this example we only show two.,

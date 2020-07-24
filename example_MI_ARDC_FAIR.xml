@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4">
+    <identifier identifierType="DOI">10.26050/WDCC/MOMERGOMBSEMEP</identifier>
+    <!-- dropped `creator` for better readability --> 
+    <titles>
+        <title>MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP</title>
+    </titles>
+    <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
+    <publicationYear>2019</publicationYear>
+    <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
+    <MaturityCheck>
+        <maturityCheckSchemaVersion>v6.0</maturityCheckSchemaVersion>
+        <maturityCheckName>ARDC FAIR data assessment tool</maturityCheckName>
+        <maturityCheckDescription>Using this tool you will be able to assess the "FAIRness" of a dataset and determine how to enhance its FAIRness (where applicable). You will be asked questions related to the principles underpinning Findable, Accessible, Interoperable and Reusable (FAIR). Once you have answered all the questions in each section you will be given a "green bar" indicator based on your answers in that section, and when all sections are completed, an overall "FAIRness" indicator is provided.</maturityCheckDescription>
+        <maturityCheckResourceType maturityCheckResourceTypeGeneral="Questionaire">web questionaire</maturityCheckResourceType>
+        <maturityCheckIsMachineReadable>no</maturityCheckIsMachineReadable>
+        <maturityCheckIdentifier maturityCheckIdentifierScheme="URL">https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/</maturityCheckIdentifier>
+        <maturityCheckPerformedBy maturityCheckPerformedByType="Creator">
+            <maturityCheckPerformedByName>Neumann, Daniel</maturityCheckPerformedByName>
+            <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</maturityCheckPerformedByIdentifier>
+        </maturityCheckPerformedBy>
+        <maturityCheckPerformedDate>2020-05-04</maturityCheckPerformedDate>
+        <maturityCheckMetrics>
+            <maturityCheckMetric>
+                <maturityCheckMetricName>Findable</maturityCheckMetricName>
+                <maturityCheckMetricResult unit="relative">0.95</maturityCheckMetricResult>
+            </maturityCheckMetric>
+            <maturityCheckMetric>
+                <maturityCheckMetricName>Accessible</maturityCheckMetricName>
+                <maturityCheckMetricResult unit="relative">0.9</maturityCheckMetricResult>
+            </maturityCheckMetric>
+            <maturityCheckMetric>
+                <maturityCheckMetricName>Interoperable</maturityCheckMetricName>
+                <maturityCheckMetricResult unit="relative">0.75</maturityCheckMetricResult>	
+            </maturityCheckMetric>
+            <maturityCheckMetric>
+                <maturityCheckMetricName>Reusable</maturityCheckMetricName>
+                <maturityCheckMetricResult unit="relative">0.85</maturityCheckMetricResult>
+            </maturityCheckMetric>
+        </maturityCheckMetrics>
+    </MaturityCheck>
+</resource>

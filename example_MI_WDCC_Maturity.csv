@@ -1,0 +1,38 @@
+Property,Value
+Identifier,http://doi.org/10.26050/WDCC/MOMERGOMBSEMEP
+# Comment: dropped `creator` for better readability,
+Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP
+Publisher,World Data Center for Climate (WDCC) at DKRZ
+PublicationYear,2019
+ResourceType,Digital
+ResourceType -> resourceTypeGeneral,Dataset
+MaturityCheck -> maturityCheckSchemaVersion,v6.0
+MaturityCheck -> maturityCheckName,Quality Maturity Matrix (QMM)
+MaturityCheck -> maturityCheckType,report/publication (Text)
+MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots
+MaturityCheck -> maturityCheckVersion,Mar-2019
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Publisher
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,WDCC
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://ror.org/03ztgj037
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,http://isni.org/isni/0000000403741955
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Creator
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,"Neumann, Daniel"
+MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
+MaturityCheck -> maturityCheckPerformedDate,2019-12-18
+MaturityCheck -> maturityCheckResultReport -> maturityCheckResultReportIdentifier,https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Consistency
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,4
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Completeness
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,4
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Accessibility
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,5
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Accuracy
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,4
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
