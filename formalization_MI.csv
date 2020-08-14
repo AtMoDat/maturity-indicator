@@ -4,7 +4,7 @@ ID,DataCite-Property,Occ,Definition,"allowed values, other constraints",comments
 99.2,maturityCheckName,1,Name of the maturity check,free text,,"ABC Maturity Metric, Super FAIRness Check"
 99.3,maturityCheckDescription,0-n,Description of the maturity check.,free text,see DataCite Metadata Schema Property 17 Description,"The ABC Maturity Check consists of 11 metrics, which test…"
 99.4,maturityCheckResourceType,0-1,Type of the resource,free text,see DataCite Metadata Schema Property 10 ResourceType,"web questionaire, automatic web service"
-99.4.a,ResourceTypeGeneral,1,The general type of the resource,"CV: [Software, Questionaire, Text]","TODO: work on CV,Questionaire, Software"
+99.4.a,ResourceTypeGeneral,1,The general type of the resource,"CV: [Software, Questionaire, Text]","TODO: work on CV","Questionaire, Software"
 99.5,maturityCheckIsMachineReadable,0-1,is the metric machine-readable / can it be automatically evaluated,yes/no,,
 99.6,maturityCheckIdentifier,0-1,PID of the metric definition,free text,"If the check consists of several metrics, which each an own definition,  URIs to individual metric definitions can be provided via 99.9.d","doi.org/10.000/example/doi"
 99.6.a,IdentifierScheme,1,Name of the maturity check identifier schema,"CV: taken from relatedIdentifierType","see DataCite Metadata Schema Subproperty 12.a relatedIdentifierType","DOI, URL, …"
