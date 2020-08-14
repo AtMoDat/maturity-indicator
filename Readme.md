@@ -25,6 +25,7 @@ The three examples are:
 | ARDC FAIR data assessment tool               | `ARDC_FAIR`      | https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/ |
 
 
+Note: the examples are currently not up to date.
 
 # Contributors:
 
