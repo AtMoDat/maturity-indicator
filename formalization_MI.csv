@@ -1,4 +1,4 @@
-ID,DataCite-Property,Occ,Definition,""allowed values, other constraints"",comments,examples
+ID,DataCite-Property,Occ,Definition,"allowed values, other constraints",comments,examples
 99,MaturityCheck,0-n,,,,
 99.1,maturityCheckSchemaVersion,1,version of this schema,v7.0,Can be removed when integrated into DataCite. For versioning this schema until then.,v6.0
 99.2,maturityCheckName,1,Name of the maturity check,free text,,""ABC Maturity Metric, Super FAIRness Check""
