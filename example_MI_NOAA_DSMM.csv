@@ -10,46 +10,54 @@ RelatedIdentifier,https://doi.org/10.5334/dsj-2019-041 (isSourceOf)
 RelatedIdentifier,https://doi.org/10.5281/ZENODO.3666260 (isCitedBy)
 MaturityCheck -> maturityCheckSchemaVersion,v6.0
 MaturityCheck -> maturityCheckName,NOAA Data Stewardship Maturity Matrix (DSMM)
-MaturityCheck -> maturityCheckType,report/publication (Text)
+MaturityCheck -> maturityCheckDescription, 
+MaturityCheck -> maturityCheckResourceType,report/publication
+MaturityCheck -> maturityCheckResourceType -> ResourceTypeGeneral,Text
+MaturityCheck -> maturityCheckIsMachineReadable, no
 MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.2481/dsj.14-049
+MaturityCheck -> maturityCheckIdentifier -> IdentifierScheme, DOI
+MaturityCheck -> maturityCheckIdentifier -> IdentifierScheme -> schemeURI,https://doi.org/
 MaturityCheck -> maturityCheckVersion,12/09/2014 Rev.1
-MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByType,Creator
-MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByName,"Heydebreck, Daniel"
-MaturityCheck -> maturityCheckPerformedBy -> maturityCheckPerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
-MaturityCheck -> maturityCheckPerformedDate,2020-07-20
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,preservability
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,4
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,accessibility
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,usability
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,production sustainability
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,2
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data quality assurance
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data quality control/monitoring
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,2
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data quality assessment
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,2
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,transparency/traceability
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
-MaturityCheck -> maturityCheckMetric,
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,data integrity
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,3
-MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,Level
+MaturityCheck -> maturityCheckPerformedBy -> PerformedByType,Creator
+MaturityCheck -> maturityCheckPerformedBy -> PerformedByName,"Heydebreck, Daniel"
+MaturityCheck -> maturityCheckPerformedBy -> PerformedByIdentifier,https://orcid.org/0000-0001-8574-9093
+MaturityCheck -> maturityCheckPerformedBy -> PerformedByIdentifier -> IdentifierScheme, DOI
+MaturityCheck -> maturityCheckPerformedBy -> PerformedByIdentifier -> IdentifierScheme -> schemeURI,https://doi.org/
+MaturityCheck -> maturityCheckReport,
+MaturityCheck -> maturityCheckReport -> ReportDate,2020-07-20
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,preservability
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,4
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit,Level
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,accessibility
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,3
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,usability
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,3
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit,Level
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,production sustainability
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,2
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,data quality assurance
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,3
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,data quality control/monitoring
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,2
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit, 1
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,data quality assessment
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,2
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,transparency/traceability
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,3
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> ReportMetric,
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricName,data integrity
+MaturityCheck -> maturityCheckReport -> ReportMetric -> MetricResult,3
+MaturityCheck -> maturityCheckReport -> ReportMetric -> unit, Level
