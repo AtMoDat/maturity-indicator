@@ -8,47 +8,55 @@
     <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
-    <MaturityCheck>
-        <maturityCheckSchemaVersion>v6.0</maturityCheckSchemaVersion>
-        <maturityCheckName>Quality Maturity Matrix (QMM)</maturityCheckName>
-        <maturityCheckDescription>DKRZ Data Management Report. Quality Maturity Matrix Checklist for Levels 4 and 5 with Protocols. Contents: 1. Why use Maturity Matrix for Data and Metadata Quality Assessment at DKRZ-LTA; 2. QMM level at DKRZ-LTA; 3. QMM 4 with Checklist Version 15/05/2019; 4. Protocol Template Level 4; 5. QMM Level 5 with Checklist Version 15/05/2019; 6. Protocol Template Level 5; 7. Links </maturityCheckDescription>
-        <maturityCheckResourceType maturityCheckResourceTypeGeneral="Text">report/publication</maturityCheckResourceType>
-        <maturityCheckIdentifier maturityCheckIdentifierScheme="DOI" schemeURI="https://doi.org">10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots</maturityCheckIdentifier>
-        <maturityCheckVersion>Mar-2019</maturityCheckVersion>
-        <maturityCheckPerformedBys>
-            <maturityCheckPerformedBy maturityCheckPerformedByType="Publisher">
-                <maturityCheckPerformedByName>WDCC</maturityCheckPerformedByName>
-                <maturityCheckPerformedByIdentifiers>
-                    <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ROR" schemeURI="https://ror.org">03ztgj037</maturityCheckPerformedByIdentifier>
-                    <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ISNI" schemeURI="http://isni.org/isni/">0000000403741955</maturityCheckPerformedByIdentifier>
-                </maturityCheckPerformedByIdentifiers>
-            </maturityCheckPerformedBy>
-            <maturityCheckPerformedBy maturityCheckPerformedByType="Creator">
-                <maturityCheckPerformedByName>Neumann, Daniel</maturityCheckPerformedByName>
-                <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</maturityCheckPerformedByIdentifier>
-            </maturityCheckPerformedBy>
-        </maturityCheckPerformedBys>
-        <maturityCheckPerformedDate>2019-12-18</maturityCheckPerformedDate>
-        <maturityCheckResultReport>
-            <maturityCheckResultReportIdentifier maturityCheckResultReportIdentifierScheme="URL">https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP</maturityCheckResultReportIdentifier>
-        </maturityCheckResultReport>
-        <maturityCheckMetrics>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Consistency</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="Level">4</maturityCheckMetricResult>
-            </maturityCheckMetric>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Completeness</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="Level">4</maturityCheckMetricResult>
-            </maturityCheckMetric>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Accessibility</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="Level">5</maturityCheckMetricResult>
-            </maturityCheckMetric>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Accuracy</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="Level">4</maturityCheckMetricResult>
-            </maturityCheckMetric>
-        </maturityCheckMetrics>
-    </MaturityCheck>
+    <maturityCheck>
+        <schemaVersion>v7.0</schemaVersion>
+        <name>Quality Maturity Matrix (QMM)</name>
+        <description>DKRZ Data Management Report. Quality Maturity Matrix Checklist for Levels 4 and 5 with Protocols. Contents: 1. Why use Maturity Matrix for Data and Metadata Quality Assessment at DKRZ-LTA; 2. QMM level at DKRZ-LTA; 3. QMM 4 with Checklist Version 15/05/2019; 4. Protocol Template Level 4; 5. QMM Level 5 with Checklist Version 15/05/2019; 6. Protocol Template Level 5; 7. Links </description>
+        <type TypeGeneral="Text">report/publication</type>
+        <isMachineReadable>yes</isMachineReadable>
+        <identifier IdentifierScheme="DOI" schemeURI="https://doi.org">10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots</identifier>
+        <version>Mar-2019</version>
+        <performedBys>
+            <performedBy>
+                <type>Publisher</type>
+                <name>WDCC</name>
+                <identifiers>
+                    <identifier IdentifierScheme="ROR" schemeURI="https://ror.org">03ztgj037</identifier>
+                    <identifier IdentifierScheme="ISNI" schemeURI="http://isni.org/isni/">0000000403741955</identifier>
+                </identifiers>
+            </performedBy>
+            <performedBy>
+                <type>Creator</type>
+                <name>Neumann, Daniel</name>
+                <identifier IdentifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</identifier>
+            </performedBy>
+        </performedBys>
+        <report>
+            <summary>Quality Maturity Matrix Level of doi:10.26050/WDCC/MOMERGOMBSEMEP</summary>
+            <identifier IdentifierScheme="URL">https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP</identifier>
+            <date>2019-12-18</date>
+            <metrics>
+                <metric>
+                    <name>Consistency</name>
+                    <description>Data Organisation and Data Object; Versioning and Controlled Vocabularies (CVs); Data-Metadata Consistency</description>
+                    <result unit="Level">4</result>
+                </metric>
+                <metric>
+                    <name>Completeness</name>
+                    <description>Existence of Data; Existence of Core Metadata and Provenance</description>
+                    <result unit="Level">4</result>
+                </metric>
+                <metric>
+                    <name>Accessibility</name>
+                    <description>Technical Data Access by Identifier/Lineage; Core Metadata and Provenance Access by Identifier</description>
+                    <result unit="Level">5</result>
+                </metric>
+                <metric>
+                    <name>Accuracy</name>
+                    <description>Plausibility; Statistical Anomalies</description>
+                    <result unit="Level">4</result>
+                </metric>
+            </metrics>
+        </report>
+    </maturityCheck>
 </resource>
