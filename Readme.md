@@ -4,7 +4,7 @@ previously named _Data Maturity Indicator_ (until 2020-07-16), previously named 
 
 The Maturity Indicator is a draft extension to the DataCite Metadata Schema. The Maturity Indicator would allow to place the results of data maturity checks in the DataCite Metadata in a standardised format. Currently (DataCite Metadata Schema v4.3), such information can only be provided via `relatedIdentifier`.
 
-The concept only provides metadata fields to insert maturity information. No maturity matrix/metric/measure is suggested. Thus, this concept is open to any kind of maturity measure.
+This concept only provides metadata fields to insert maturity information. No maturity matrix/metric/measure is suggested. Thus, this concept is open to any kind of maturity measure.
 
 The draft containing the definition of metadata properties and sub-properties is provided in the [formalization_MI.csv](formalization_MI.csv) file.
 
@@ -16,13 +16,15 @@ Also three example cases are provided -- each as `xml` and as `csv` file. The fi
 * `example_MI_*.xml`
 * `example_MI_*.csv`
 
-The three examples are:
+The examples are:
 
 | metric                                       | file suffix      | URL                                                         |
 |----------------------------------------------|------------------|---------------------------------------------------------------------------------------|
 | FAIRsFAIR Draft Recommendation ... FAIR ...  | `_FAIRsFAIR`     | https://doi.org/10.5281/zenodo.3678716                                                |
 | WDCC Quality Maturity Matrix (QMM)           | `_WDCC_Maturity` | https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots                           |
-| ARDC FAIR data assessment tool               | `ARDC_FAIR`      | https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/ |
+| ARDC FAIR data assessment tool               | `ARDC_FAIR`      | https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/  |
+| NOAA Data Stewardship Maturity Matrix (DSMM) | `NOAA_DSMM`      | https://doi.org/10.2481/dsj.14-049                                                    |
+| Geospatial User Feedback (GUF) data model    | `GUF`            | https://www.ogc.org/standards/guf                                                     |
 
 
 Note: the examples are currently not up to date.
