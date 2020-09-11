@@ -1,5 +1,14 @@
 # Changelog
 
+## v06.0 -> v07.0 (2020-XX-XX):
+
+* added GUF example (Geospatial User Feedback?)
+* modifications of the Maturity Indicator:
+** 
+** 
+** 
+
+
 ## v05 -> v06.0 (2020-07-16):
 
 * new "description" field (maturityCheckDescription)
