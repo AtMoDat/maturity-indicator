@@ -5,24 +5,30 @@ Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitro
 Publisher,World Data Center for Climate (WDCC) at DKRZ
 PublicationYear,2019
 ResourceType,Digital
-RelatedIdentifier,https://doi.org/10.6084/m9.figshare.1211954 (isSupplementedBy)
-RelatedIdentifier,https://doi.org/10.5334/dsj-2019-041 (isSourceOf)
-RelatedIdentifier,https://doi.org/10.5281/ZENODO.3666260 (isCitedBy)
+RelatedIdentifier,https://doi.org/10.6084/m9.figshare.1211954
+RelatedIdentifier -> relatedIdentifierType,DOI
+RelatedIdentifier -> relationType,isSupplementedBy
+RelatedIdentifier,https://doi.org/10.5334/dsj-2019-041
+RelatedIdentifier -> relatedIdentifierType,DOI
+RelatedIdentifier -> relationType,isSourceOf
+RelatedIdentifier,https://doi.org/10.5281/ZENODO.3666260
+RelatedIdentifier -> relatedIdentifierType,DOI
+RelatedIdentifier -> relationType,isCitedBy
 MaturityCheck -> maturityCheckSchemaVersion,v6.0
 MaturityCheck -> maturityCheckName,NOAA Data Stewardship Maturity Matrix (DSMM)
 MaturityCheck -> maturityCheckDescription,
 MaturityCheck -> maturityCheckResourceType,report/publication
 MaturityCheck -> maturityCheckResourceType -> resourceTypeGeneral,Text
 MaturityCheck -> maturityCheckIsMachineReadable,no
-MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.2481/dsj.14-049
+MaturityCheck -> maturityCheckIdentifier,10.2481/dsj.14-049
 MaturityCheck -> maturityCheckIdentifier -> identifierScheme,DOI
 MaturityCheck -> maturityCheckIdentifier -> identifierScheme -> schemeURI,https://doi.org/
 MaturityCheck -> maturityCheckVersion,12/09/2014 Rev.1
 MaturityCheck -> maturityCheckPerformedBy -> performedByType,Creator
 MaturityCheck -> maturityCheckPerformedBy -> performedByName,"Heydebreck, Daniel"
-MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier,https://orcid.org/0000-0001-8574-9093
-MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier -> identifierScheme,DOI
-MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier -> identifierScheme -> schemeURI,https://doi.org/
+MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier,0000-0001-8574-9093
+MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier -> identifierScheme,ORCID
+MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier -> identifierScheme -> schemeURI,https://orcid.org/
 MaturityCheck -> maturityCheckReport,
 MaturityCheck -> maturityCheckReport -> reportDate,2020-07-20
 MaturityCheck -> maturityCheckReport -> reportMetric,
