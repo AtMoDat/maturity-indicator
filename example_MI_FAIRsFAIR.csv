@@ -6,7 +6,7 @@ Publisher,World Data Center for Climate (WDCC) at DKRZ
 PublicationYear,2019
 ResourceType,Digital
 ResourceType -> resourceTypeGeneral,Dataset
-MaturityCheck -> maturityCheckSchemaVersion,v6.0
+MaturityCheck -> maturityCheckSchemaVersion,v7.0
 MaturityCheck -> maturityCheckName,D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories
 MaturityCheck -> maturityCheckType,project report (Text)
 MaturityCheck -> maturityCheckIsMachineReadable,False

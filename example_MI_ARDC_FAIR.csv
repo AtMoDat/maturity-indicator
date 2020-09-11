@@ -6,7 +6,7 @@ Publisher,World Data Center for Climate (WDCC) at DKRZ
 PublicationYear,2019
 ResourceType,Digital
 ResourceType -> resourceTypeGeneral,Dataset
-MaturityCheck -> maturityCheckSchemaVersion,v6.0
+MaturityCheck -> maturityCheckSchemaVersion,v7.0
 MaturityCheck -> maturityCheckName,ARDC FAIR data assessment tool
 MaturityCheck -> maturityCheckResourceType,web questionaire (Questionaire)
 MaturityCheck -> maturityCheckIdentifier,https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/
