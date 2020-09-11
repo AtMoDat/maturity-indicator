@@ -10,54 +10,54 @@ RelatedIdentifier,https://doi.org/10.5334/dsj-2019-041 (isSourceOf)
 RelatedIdentifier,https://doi.org/10.5281/ZENODO.3666260 (isCitedBy)
 MaturityCheck -> maturityCheckSchemaVersion,v6.0
 MaturityCheck -> maturityCheckName,NOAA Data Stewardship Maturity Matrix (DSMM)
-MaturityCheck -> maturityCheckDescription, 
+MaturityCheck -> maturityCheckDescription,
 MaturityCheck -> maturityCheckResourceType,report/publication
 MaturityCheck -> maturityCheckResourceType -> resourceTypeGeneral,Text
-MaturityCheck -> maturityCheckIsMachineReadable, no
+MaturityCheck -> maturityCheckIsMachineReadable,no
 MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.2481/dsj.14-049
-MaturityCheck -> maturityCheckIdentifier -> identifierScheme, DOI
+MaturityCheck -> maturityCheckIdentifier -> identifierScheme,DOI
 MaturityCheck -> maturityCheckIdentifier -> identifierScheme -> schemeURI,https://doi.org/
 MaturityCheck -> maturityCheckVersion,12/09/2014 Rev.1
 MaturityCheck -> maturityCheckPerformedBy -> performedByType,Creator
 MaturityCheck -> maturityCheckPerformedBy -> performedByName,"Heydebreck, Daniel"
 MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier,https://orcid.org/0000-0001-8574-9093
-MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier -> identifierScheme, DOI
+MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier -> identifierScheme,DOI
 MaturityCheck -> maturityCheckPerformedBy -> performedByIdentifier -> identifierScheme -> schemeURI,https://doi.org/
 MaturityCheck -> maturityCheckReport,
 MaturityCheck -> maturityCheckReport -> reportDate,2020-07-20
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,preservability
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,4
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,preservability
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,4
 MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,accessibility
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,3
-MaturityCheck -> maturityCheckReport -> reportMetric -> unit, Level
-MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,usability
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,3
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,accessibility
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,3
 MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,production sustainability
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,2
-MaturityCheck -> maturityCheckReport -> reportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,usability
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,3
+MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,data quality assurance
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,3
-MaturityCheck -> maturityCheckReport -> reportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,production sustainability
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,2
+MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,data quality control/monitoring
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,2
-MaturityCheck -> maturityCheckReport -> reportMetric -> unit, 1
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,data quality assurance
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,3
+MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,data quality assessment
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,2
-MaturityCheck -> maturityCheckReport -> reportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,data quality control/monitoring
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,2
+MaturityCheck -> maturityCheckReport -> reportMetric -> unit,1
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,transparency/traceability
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,3
-MaturityCheck -> maturityCheckReport -> reportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,data quality assessment
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,2
+MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
 MaturityCheck -> maturityCheckReport -> reportMetric,
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricName,data integrity
-MaturityCheck -> maturityCheckReport -> reportMetric -> MetricResult,3
-MaturityCheck -> maturityCheckReport -> reportMetric -> unit, Level
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,transparency/traceability
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,3
+MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
+MaturityCheck -> maturityCheckReport -> reportMetric,
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricName,data integrity
+MaturityCheck -> maturityCheckReport -> reportMetric -> metricResult,3
+MaturityCheck -> maturityCheckReport -> reportMetric -> unit,Level
