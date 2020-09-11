@@ -1,33 +1,26 @@
-ID;DataCite-Property;Occ;Definition;allowed values, other constraints;comments;examples
-99;MaturityCheck;0-n;;;;
-99.1;maturityCheckSchemaVersion;1;version of this schema;v7.0;Can be removed when integrated into DataCite. For versioning this schema until then.;v7.0
-99.2;maturityCheckName;1;Name of the maturity check;free text;;ABC Maturity Metric, Super FAIRness Check
-99.3;maturityCheckDescription;0-n;Description of the maturity check.;free text;see DataCite Metadata Schema Property 17 Description;The ABC Maturity Check consists of 11 metrics, which test…
-99.4;maturityCheckType;0-1;Type of the resource;free text;see DataCite Metadata Schema Property 10 ResourceType;web questionaire, automatic web service
-99.4.a;TypeGeneral;1;The general type of the resource;CV: [Software, Questionaire, Text];TODO: work on CV;Questionaire, Software
-99.5;maturityCheckIsMachineReadable;0-1;is the metric machine-readable / can it be automatically evaluated;yes/no;;
-99.6;maturityCheckIdentifier;0-1;PID of the metric definition;free text;If the check consists of several metrics, which each an own definition,  URIs to individual metric definitions can be provided via 99.9.d;doi.org/10.000/example/doi
-99.6.a;IdentifierScheme;1;Name of the maturity check identifier schema;CV: taken from relatedIdentifierType;see DataCite Metadata Schema Subproperty 12.a relatedIdentifierType;DOI, URL, …
-99.6.b;schemeURI;0-1;URI of the maturity check identfier schema;free text;URL, DOI, PID, URI;https://www.doi.org
-99.7;maturityCheckVersion;1;version of the maturity check;text;Commonly, more than one person/organization is involved -- but, at least one. Question: How to link data to publications when both were reviewer by the same process?;v1.0, Mar-2019, 72.1.7
-99.8;maturityCheckPerformedBy;1-n;information on who performed the maturity check;;similarities to DataCite Metadata Schema Property 2 Creator;
-99.8.1;PerformedByType;1;function of person/organization in the context of this dataset;CV: [creator, publisher, data provider, external reviewer, contributor];;creator, provider
-99.8.2;PerformedByName;1;name of person/organization;free text;;Josiah Carberry, Global Data Repository on Psychoceramics Research
-99.8.3;PerformedByIdentifier;1-n;PID of person/organization;free text;format dependet upon schema;http://orcid.org/0000-0002-1825-0097
-99.8.3.a;IdentifierScheme;1;Name of the person/organization identifier schema;free text;person or institution identifier scheme;
-99.8.3.b;schemeURI;0-1;URI of the person/organization identfier schema;free text;;https://orcid.org, https://ror.org
-99.9;maturityCheckReport;0-1;provide result report for the check;;;
-99.9.1;ReportSummary;0-1;summary of the result;free text;;This dataset performed outstanding with respect to the ABC Maturity Evaluation ... .
-99.9.2;ReportIdentifier;0-n;PID or URI of a evaluation report or a similar document;free text;;doi.org/10.000/example/doi
-99.9.2.a;IdentifierScheme;1;Name of the report identifier schema;CV: taken from relatedIdentifierType;;DOI, URL, …
-99.9.2.b;schemeURI;0-1;URI of the report identfier schema;free text;;https://www.doi.org
-99.9.3;ReportDate;1;date when the result was produced;ISO 8601 confonromal time stamp;;2020-07-16T10:01:00, 2019-03-30
-99.9.4;ReportMetric;0-n;;;One maturity check might consist of several metrics (e.g. one metric for each aspect of FAIRness);
-99.9.4.1;MetricName;1;name of the metric;free text;name of the metric within the metric schema;Check for persistent identifier, Maturity Check for Consistency
-99.9.4.2;MetricDescription;1;Description of the metric and the result unit ;;;
-99.9.4.3;MetricInternalIdentifier;0-1;internal identifier of the metric;free text;ID of the metric within the metric schema;FsF-F1-02D, …
-99.9.4.4;MetricExternalIdentifier;0-1;PID or URI of the metric definition;free text;If each metric of the particular check has an individual definition, this can be provided here.;doi.org/10.000/example/doi
-99.9.4.4.a;ExternalIdentifierScheme;1;Name of the metric definition identifier schema;CV: taken from relatedIdentifierType;see DataCite Metadata Schema Subproperty 12.a relatedIdentifierType;DOI, URL,…
-99.9.4.4.b;schemeURI;0-1;URI of the metric definition identfier schema;free text;;https://www.doi.org
-99.9.4.5;MetricResult;1;results of the metric;free text;for storing evaluation result in DataCite metadata;4, 2.1, 77, B, A++
-99.9.4.5.a;unit;1;unit of the result;free text;unit of the value provided in … MetricResult;%, level of 5 (if ...MetricResult was 4, we would get level 4 of 5), points, 1 (dimensionless), levels A to E with A best and E worst
+Property,Value
+Identifier,http://doi.org/10.26050/WDCC/MOMERGOMBSEMEP
+# Comment: dropped `creator` for better readability,
+Title,MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP
+Publisher,World Data Center for Climate (WDCC) at DKRZ
+PublicationYear,2019
+ResourceType,Digital
+ResourceType -> resourceTypeGeneral,Dataset
+MaturityCheck -> maturityCheckSchemaVersion,v6.0
+MaturityCheck -> maturityCheckName,D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories
+MaturityCheck -> maturityCheckType,project report (Text)
+MaturityCheck -> maturityCheckIsMachineReadable,False
+MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.5281/zenodo.3678716
+MaturityCheck -> maturityCheckVersion,1.0
+MaturityCheck -> maturityCheckPerformedDate,2020-04-23T11:13:00
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Universally unique identifier
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricInternalIdentifier,FsF-F1-01D
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,1.0
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,none
+MaturityCheck -> maturityCheckMetric,
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricName,Persistent identifier
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricInternalIdentifier,FsF-F1-02D
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult,1.0
+MaturityCheck -> maturityCheckMetric -> maturityCheckMetricResult -> unit,none
+# Comment: FAIRsFAIR Developed more metrics but for this example we only show two.,
