@@ -38,8 +38,10 @@ In alphabetic order:
 ](https://orcid.org/0000-0003-1043-4964)
 * Angelina Kraft, [ORCID: 0000-0002-6454-335X](https://orcid.org/0000-0002-6454-335X)
 * [Daniel Heydebreck](https://github.com/neumannd), [ORCID: 0000-0001-8574-9093](https://orcid.org/0000-0001-8574-9093)
+* Ge Peng, [ORCID: 0000-0002-1986-9115](http://orcid.org/0000-0002-1986-9115)
 * Hannes Thiemann, [ORCID: 0000-0002-2329-8511](https://orcid.org/0000-0002-2329-8511)
 * Heinke Hoeck, [ORCID: 0000-0002-0131-1404](https://orcid.org/0000-0002-0131-1404)
+* Ted Habermann, [ORCID: 0000-0003-3585-6733](https://orcid.org/0000-0003-3585-6733)
 
 
 # Acknowledgements:
