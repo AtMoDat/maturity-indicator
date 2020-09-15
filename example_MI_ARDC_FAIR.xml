@@ -9,7 +9,7 @@
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
     <MaturityCheck>
-        <maturityCheckSchemaVersion>v7.0</maturityCheckSchemaVersion>
+        <maturityCheckSchemaVersion>v6.0</maturityCheckSchemaVersion>
         <maturityCheckName>ARDC FAIR data assessment tool</maturityCheckName>
         <maturityCheckDescription>Using this tool you will be able to assess the "FAIRness" of a dataset and determine how to enhance its FAIRness (where applicable). You will be asked questions related to the principles underpinning Findable, Accessible, Interoperable and Reusable (FAIR). Once you have answered all the questions in each section you will be given a "green bar" indicator based on your answers in that section, and when all sections are completed, an overall "FAIRness" indicator is provided.</maturityCheckDescription>
         <maturityCheckResourceType maturityCheckResourceTypeGeneral="Questionaire">web questionaire</maturityCheckResourceType>

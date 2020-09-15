@@ -9,7 +9,7 @@
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
     <maturityCheck>
-        <schemaVersion>v7.0</schemaVersion>
+        <schemaVersion>v6.0</schemaVersion>
         <name>Quality Maturity Matrix (QMM)</name>
         <description>DKRZ Data Management Report. Quality Maturity Matrix Checklist for Levels 4 and 5 with Protocols. Contents: 1. Why use Maturity Matrix for Data and Metadata Quality Assessment at DKRZ-LTA; 2. QMM level at DKRZ-LTA; 3. QMM 4 with Checklist Version 15/05/2019; 4. Protocol Template Level 4; 5. QMM Level 5 with Checklist Version 15/05/2019; 6. Protocol Template Level 5; 7. Links </description>
         <type TypeGeneral="Text">report/publication</type>

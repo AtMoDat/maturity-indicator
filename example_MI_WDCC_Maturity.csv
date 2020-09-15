@@ -6,7 +6,7 @@ Publisher,World Data Center for Climate (WDCC) at DKRZ
 PublicationYear,2019
 ResourceType,Digital
 ResourceType -> resourceTypeGeneral,Dataset
-MaturityCheck -> maturityCheckSchemaVersion,v7.0
+MaturityCheck -> maturityCheckSchemaVersion,v6.0
 MaturityCheck -> maturityCheckName,Quality Maturity Matrix (QMM)
 MaturityCheck -> maturityCheckType,report/publication (Text)
 MaturityCheck -> maturityCheckIdentifier,https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots
