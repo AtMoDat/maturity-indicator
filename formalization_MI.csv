@@ -1,6 +1,6 @@
 ID,DataCite-Property,Occ,Definition,"allowed values, other constraints",comments,examples
 99,MaturityCheck,0-n,,,,
-99.1,maturityCheckSchemaVersion,1,version of this schema,v7.0,Can be removed when integrated into DataCite. For versioning this schema until then.,v7.0
+99.1,maturityCheckSchemaVersion,1,version of this schema,v7.0,Can be removed when integrated into DataCite. For versioning this schema until then.,v7.1
 99.2,maturityCheckName,1,Name of the maturity check,free text,,"ABC Maturity Metric, Super FAIRness Check"
 99.3,maturityCheckDescription,0-n,Description of the maturity check.,free text,see DataCite Metadata Schema Property 17 Description,"The ABC Maturity Check consists of 11 metrics, which test ..."
 99.4,maturityCheckType,0-1,Type of the resource,free text,see DataCite Metadata Schema Property 10 ResourceType,"web questionaire, automatic web service"
