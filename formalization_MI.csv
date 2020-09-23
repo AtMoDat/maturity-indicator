@@ -1,35 +1,35 @@
 ID,DataCite-Property,Occ,Definition,"allowed values, other constraints",comments,examples
-99,MaturityCheck,0-n,,,,
-99.1,maturityCheckSchemaVersion,1,version of this schema,v7.0,Can be removed when integrated into DataCite. For versioning this schema until then.,v7.1
-99.2,maturityCheckName,1,Name of the maturity check,free text,,"ABC Maturity Metric, Super FAIRness Check"
-99.3,maturityCheckDescription,0-n,Description of the maturity check.,free text,see DataCite Metadata Schema Property 17 Description,"The ABC Maturity Check consists of 11 metrics, which test ..."
-99.4,maturityCheckType,0-1,Type of the resource,free text,see DataCite Metadata Schema Property 10 ResourceType,"web questionaire, automatic web service"
-99.4.a,typeGeneral,1,The general type of the resource,"CV: [Software, Questionaire, Text, Other]",,"Questionaire, Software"
-99.5,maturityCheckIsMachineReadable,0-1,is the metric machine-readable / can it be automatically evaluated,yes/no,,
-99.6,maturityCheckIdentifier,0-1,PID of the metric definition,free text,"If the check consists of several metrics, which each an own definition,  URIs to individual metric definitions can be provided via 99.11.TODO.d","doi.org/10.000/example/doi"
-99.6.a,identifierScheme,1,Name of the maturity check identifier schema,"CV: taken from relatedIdentifierType","see DataCite Metadata Schema Subproperty 12.a relatedIdentifierType","DOI, URL, ..."
-99.6.b,schemeURI,0-1,URI of the maturity check identfier schema,free text,"URL, DOI, PID, URI","https://www.doi.org"
-99.7,maturityCheckVersion,1,version of the maturity check,text,"Commonly, more than one person/organization is involved -- but, at least one. Question: How to link data to publications when both were reviewer by the same process?","v1.0, Mar-2019, 72.1.7"
-99.8,maturityCheckPerformedBy,1-n,information on who performed the maturity check,,similarities to DataCite Metadata Schema Property 2 Creator,
+99,MaturityCheck,0-n,,"",,
+99.1,maturityCheckSchemaVersion,1,version of this schema,"v7.1",Can be removed when integrated into DataCite. For versioning this schema until then.,v7.1
+99.2,maturityCheckName,1,name of the maturity check,"free text",,"ABC Maturity Metric, Super FAIRness Check"
+99.3,maturityCheckDescription,0-n,description of the maturity check,"free text",see DataCite Metadata Schema Property 17 Description,"The ABC Maturity Check consists of 11 metrics, which test ..."
+99.4,maturityCheckType,0-1,type of the resource,"free text",see DataCite Metadata Schema Property 10 ResourceType,"web questionaire, automatic web service"
+99.4.a,typeGeneral,1,general type of the resource,"CV: [Software, Questionaire, Text, Other]",,"Questionaire, Software"
+99.5,maturityCheckIsMachineReadable,0-1,Is the metric machine-readable / Can it be automatically evaluated?,"yes/no",,
+99.6,maturityCheckIdentifier,0-1,PID of the metric definition,"free text","If the check consists of several metrics, which each an own definition,  URIs to individual metric definitions can be provided via 99.11.TODO.d",doi.org/10.000/example/doi
+99.6.a,identifierScheme,1,name of the maturity check identifier schema,"CV: taken from relatedIdentifierType",see DataCite Metadata Schema Subproperty 12.a relatedIdentifierType,"DOI, URL, ..."
+99.6.b,schemeURI,0-1,URI of the maturity check identfier schema,"free text","URL, DOI, PID, URI",https://www.doi.org
+99.7,maturityCheckVersion,1,version of the maturity check,"text","Commonly, more than one person/organization is involved -- but, at least one. Question: How to link data to publications when both were reviewer by the same process?","v1.0, Mar-2019, 72.1.7"
+99.8,maturityCheckPerformedBy,1-n,information on who performed the maturity check,"",similarities to DataCite Metadata Schema Property 2 Creator,
 99.8.1,performedByType,1,function of person/organization in the context of this dataset,"CV: [creator, publisher, data provider, external reviewer, contributor]",,"creator, provider"
-99.8.2,performedByName,1,name of person/organization,free text,,"Josiah Carberry, Global Data Repository on Psychoceramics Research"
-99.8.3,performedByIdentifier,1-n,PID of person/organization,free text,format dependet upon schema,"http://orcid.org/0000-0002-1825-0097"
-99.8.3.a,identifierScheme,1,Name of the person/organization identifier schema,free text,person or institution identifier scheme,
-99.8.3.b,schemeURI,0-1,URI of the person/organization identfier schema,free text,,"https://orcid.org, https://ror.org"
-99.9,performedDate,1,date when the result was produced,ISO 8601 confonromal time stamp,,"2020-07-16T10:01:00, 2019-03-30"
-99.10,externalReport,0-n,provide link to result report for the check,,point to results stored somewhere externally (in contrast to 'results'),
-99.10.1,reportSummary,0-1,summary of the linked report,free text,This is the summary of the external report and not necessarily of the metric results provided via 'results',"Report Abstract: This dataset performed outstanding with respect to the ABC Maturity Evaluation ... ."
-99.10.2,reportIdentifier,1,PID or URI of the report,free text,,doi.org/10.000/example/doi
-99.10.2.a,identifierScheme,1,Name of the report identifier schema,CV: taken from relatedIdentifierType,,"DOI, URL, ..."
-99.10.2.b,schemeURI,0-1,URI of the report identfier schema,free text,,https://www.doi.org
-99.11,results,0-1,results of the performed maturity check stored in these metadata,,results stored in metadata (in contrast to 'externalReport'),
-99.11.1,resultSummary,0-1,summary of the results,free text,Summary of the results provided via the metrics below. ,This dataset performed outstanding with respect to the ABC Maturity Evaluation ... .
-99.11.2,metric,1-n,representation of one metric of the maturity check,,One maturity check might consist of several metrics (e.g. one metric for each aspect of FAIRness),
-99.11.2.1,metricName,1,name of the metric,free text,name of the metric within the metric schema,"Check for persistent identifier, Maturity Check for Consistency"
-99.11.2.2,metricDescription,1,Description of the metric and the result unit,free text,,"'The F-metric measures the findability. Four aspects are measured. Thus, up to four points can be reached.', 'This metric ... . It can pass (result = 1) or fail (result = 0).'"
-99.11.2.3,metricInternalIdentifier,0-1,internal identifier of the metric,free text,ID of the metric within the metric schema,"FsF-F1-02D, "
-99.11.2.4,metricExternalIdentifier,0-1,PID or URI of the metric definition,free text,"If each metric of the particular check has an individual definition, this can be provided here.",doi.org/10.000/example/doi
-99.11.2.4.a,externalIdentifierScheme,1,Name of the metric definition identifier schema,CV: taken from relatedIdentifierType,see DataCite Metadata Schema Subproperty 12.a relatedIdentifierType,"DOI, URL,..."
-99.11.2.4.b,schemeURI,0-1,URI of the metric definition identfier schema,free text,,https://www.doi.org
-99.11.2.5,metricResult,1,results of the metric,free text,for storing evaluation result in DataCite metadata,"4, 2.1, 77, B, A++"
-99.11.2.5.a,unit,1,unit of the result,free text,"unit of the value provided in ... MetricResult","%, level of 5 (if ...MetricResult was 4, we would get level 4 of 5), points, 1 (dimensionless), levels A to E with A best and E worst"
+99.8.2,performedByName,1,name of person/organization,"free text",,"Josiah Carberry, Global Data Repository on Psychoceramics Research"
+99.8.3,performedByIdentifier,1-n,PID of person/organization,"free text",format dependet upon schema,http://orcid.org/0000-0002-1825-0097
+99.8.3.a,identifierScheme,1,name of the person/organization identifier schema,"free text",person or institution identifier scheme,
+99.8.3.b,schemeURI,0-1,URI of the person/organization identfier schema,"free text",,"https://orcid.org, https://ror.org"
+99.9,performedDate,1,date when the result was produced,"ISO 8601 confonromal time stamp",,"2020-07-16T10:01:00, 2019-03-30"
+99.10,externalReport,0-n,provide link to result report for the check,"",point to results stored somewhere externally (in contrast to 'results'),
+99.10.1,reportSummary,0-1,summary of the linked report,"free text",This is the summary of the external report and not necessarily of the metric results provided via 'results',Report Abstract: This dataset performed outstanding with respect to the ABC Maturity Evaluation ... .
+99.10.2,reportIdentifier,1,PID or URI of the report,"free text",,doi.org/10.000/example/doi
+99.10.2.a,identifierScheme,1,name of the report identifier schema,"CV: taken from relatedIdentifierType",,"DOI, URL, ..."
+99.10.2.b,schemeURI,0-1,URI of the report identfier schema,"free text",,https://www.doi.org
+99.11,results,0-1,results of the performed maturity check stored in these metadata,"",results stored in metadata (in contrast to 'externalReport'),
+99.11.1,resultSummary,0-1,summary of the results,"free text","Summary of the results provided via the metrics below. ",This dataset performed outstanding with respect to the ABC Maturity Evaluation ... .
+99.11.2,metric,1-n,representation of one metric of the maturity check,"",One maturity check might consist of several metrics (e.g. one metric for each aspect of FAIRness),
+99.11.2.1,metricName,1,name of the metric,"free text",name of the metric within the metric schema,"Check for persistent identifier, Maturity Check for Consistency"
+99.11.2.2,metricDescription,1,description of the metric and the result unit,"free text",,"The F-metric measures the findability. Four aspects are measured. Thus, up to four points can be reached.; This metric ... . It can pass (result = 1) or fail (result = 0)."
+99.11.2.3,metricInternalIdentifier,0-1,internal identifier of the metric,"free text",ID of the metric within the metric schema,FsF-F1-02D
+99.11.2.4,metricExternalIdentifier,0-1,PID or URI of the metric definition,"free text","If each metric of the particular check has an individual definition, this can be provided here.",doi.org/10.000/example/doi
+99.11.2.4.a,externalIdentifierScheme,1,name of the metric definition identifier schema,"CV: taken from relatedIdentifierType",see DataCite Metadata Schema Subproperty 12.a relatedIdentifierType,"DOI, URL,..."
+99.11.2.4.b,schemeURI,0-1,URI of the metric definition identfier schema,"free text",,https://www.doi.org
+99.11.2.5,metricResult,1,results of the metric,"free text",for storing evaluation result in DataCite metadata,"4, 2.1, 77, B, A++"
+99.11.2.5.a,unit,1,unit of the result,"free text",unit of the value provided in ... MetricResult,"%, level of 5 (if ...MetricResult was 4, we would get level 4 of 5), points, 1 (dimensionless), levels A to E with A best and E worst"
