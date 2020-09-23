@@ -35,17 +35,17 @@
             <metrics>
                 <metric>
                     <name>preservability</name>
-                    <description>The focus under the preservability key component is on assessing practices associated with data storage for resilience requirements, i.e., backup or a duplicate copy (redundancy) in a physically separate facility for disaster recovery, and on compliance to community-accepted archive practices and metadata standards.</description>
+                    <description>The focus under the preservability key component is on assessing practices associated with data storage for resilience requirements, i.e., backup or a duplicate copy (redundancy) in a physically separate facility for disaster recovery, and on compliance to community-accepted archive practices and metadata standards. Maximum level: 5</description>
                     <result unit="Level">4</result>
                 </metric>
                 <metric>
                     <name>accessibility</name>
-                    <description>The maturity of the accessibility key component focuses on whether users can easily find and access data online. It measures whether a dataset is searchable and discoverable for collection only or to the granule level; the latter is considered to be more mature.</description>
+                    <description>The maturity of the accessibility key component focuses on whether users can easily find and access data online. It measures whether a dataset is searchable and discoverable for collection only or to the granule level; the latter is considered to be more mature. Maximum level: 5</description>
                     <result unit="Level">3</result>
                 </metric>
                 <metric>
                     <name>usability</name>
-                    <description>The usability key component focuses on the availability of knowledge about data and the ease of viewing, customizing, and using the data for the whole or a sub-spatial domain or for a whole or a part of the temporal period.</description>
+                    <description>The usability key component focuses on the availability of knowledge about data and the ease of viewing, customizing, and using the data for the whole or a sub-spatial domain or for a whole or a part of the temporal period. Maximum level: 5</description>
                     <result unit="Level">3</result>
                 </metric>
                 <metric>
@@ -55,12 +55,12 @@
                 </metric>
                 <metric>
                     <name>data quality assurance</name>
-                    <description>Data quality assurance is a set of activities or procedures focused on defect prevention to be followed in order to ensure product quality during development. Data quality screening (DQS) is a set of activities intended to ensure the source data are clean. DQS is a commonly used procedure for identifying missing or redundant records, outliers (ranges and variations), and checking for normality (shape and skewness) and linearity (consistency).</description>
+                    <description>Data quality assurance is a set of activities or procedures focused on defect prevention to be followed in order to ensure product quality during development. Data quality screening (DQS) is a set of activities intended to ensure the source data are clean. DQS is a commonly used procedure for identifying missing or redundant records, outliers (ranges and variations), and checking for normality (shape and skewness) and linearity (consistency). Maximum level: 5</description>
                     <result unit="Level">3</result>
                 </metric>
                 <metric>
                     <name>data quality control/monitoring</name>
-                    <description>Data quality control (DQC) is a set of activities taken to evaluate the product to ensure that it conforms to the required specifications. It is product-oriented and focuses on data anomaly detection. It is usually carried out after the product is created or at each major milestone of the product development and processing cycle. It often employs statistical tools with well-established metrics for the user community.</description>
+                    <description>Data quality control (DQC) is a set of activities taken to evaluate the product to ensure that it conforms to the required specifications. It is product-oriented and focuses on data anomaly detection. It is usually carried out after the product is created or at each major milestone of the product development and processing cycle. It often employs statistical tools with well-established metrics for the user community. Maximum level: 5</description>
                     <result unit="Level">2</result>
                 </metric>
                 <metric>
