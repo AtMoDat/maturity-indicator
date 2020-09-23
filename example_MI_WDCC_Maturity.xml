@@ -8,33 +8,36 @@
     <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
-    <maturityCheck>
-        <schemaVersion>v6.0</schemaVersion>
+    <MaturityCheck>
+        <schemaVersion>v7.1</schemaVersion>
         <name>Quality Maturity Matrix (QMM)</name>
         <description>DKRZ Data Management Report. Quality Maturity Matrix Checklist for Levels 4 and 5 with Protocols. Contents: 1. Why use Maturity Matrix for Data and Metadata Quality Assessment at DKRZ-LTA; 2. QMM level at DKRZ-LTA; 3. QMM 4 with Checklist Version 15/05/2019; 4. Protocol Template Level 4; 5. QMM Level 5 with Checklist Version 15/05/2019; 6. Protocol Template Level 5; 7. Links </description>
-        <type TypeGeneral="Text">report/publication</type>
+        <type typeGeneral="Text">report/publication</type>
         <isMachineReadable>yes</isMachineReadable>
-        <identifier IdentifierScheme="DOI" schemeURI="https://doi.org">10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots</identifier>
+        <identifier identifierScheme="DOI" schemeURI="https://doi.org">10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots</identifier>
         <version>Mar-2019</version>
         <performedBys>
             <performedBy>
                 <type>Publisher</type>
                 <name>WDCC</name>
                 <identifiers>
-                    <identifier IdentifierScheme="ROR" schemeURI="https://ror.org">03ztgj037</identifier>
-                    <identifier IdentifierScheme="ISNI" schemeURI="http://isni.org/isni/">0000000403741955</identifier>
+                    <identifier identifierScheme="ROR" schemeURI="https://ror.org">03ztgj037</identifier>
+                    <identifier identifierScheme="ISNI" schemeURI="http://isni.org/isni/">0000000403741955</identifier>
                 </identifiers>
             </performedBy>
             <performedBy>
                 <type>Creator</type>
                 <name>Neumann, Daniel</name>
-                <identifier IdentifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</identifier>
+                <identifier identifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</identifier>
             </performedBy>
         </performedBys>
-        <report>
+        <performedDate>2019-12-18</performedDate>
+        <externalReport>
             <summary>Quality Maturity Matrix Level of doi:10.26050/WDCC/MOMERGOMBSEMEP</summary>
-            <identifier IdentifierScheme="URL">https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP</identifier>
-            <date>2019-12-18</date>
+            <identifier identifierScheme="URL">https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP</identifier>
+        </externalReport>  
+        <results>  
+            <summary>This dataset reaches on average level 4.25 (out of 5).</summary>
             <metrics>
                 <metric>
                     <name>Consistency</name>
@@ -57,6 +60,6 @@
                     <result unit="Level">4</result>
                 </metric>
             </metrics>
-        </report>
-    </maturityCheck>
+        </results>
+    </MaturityCheck>
 </resource>

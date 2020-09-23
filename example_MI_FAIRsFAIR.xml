@@ -9,30 +9,39 @@
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
     <MaturityCheck>
-        <maturityCheckSchemaVersion>v6.0</maturityCheckSchemaVersion>
-        <maturityCheckName>D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories</maturityCheckName>
-        <maturityCheckDescription>The overall goal of FAIRsFAIR is to accelerate the realization of the goals of the European Open Science Cloud (EOSC) by compiling and disseminating all knowledge, expertise, guidelines, implementations, new trajectories, training and education on FAIR matters. FAIRsFAIR work package 4 (WP4) will support the provision of practical solutions for implementing the FAIR principles through the co-development and implementation of certification schemes for trusted data repositories enabling FAIR research data in the EOSC, and the provision of organizational support and outreach activities. One of the objectives of WP4 is to develop requirements (e.g., metrics) and tools to pilot the FAIR assessment of digital objects, in particular research data objects in trustworthy digital repositories (TDRs).</maturityCheckDescription>
-        <maturityCheckResourceType maturityCheckResourceTypeGeneral="Text">project report</maturityCheckResourceType>
-        <maturityCheckIsMachineReadable>False</maturityCheckIsMachineReadable>
-        <maturityCheckIdentifier maturityCheckIdentifierScheme="DOI" schemeURI="https://doi.org/">10.5281/zenodo.3678716</maturityCheckIdentifier>
-        <maturityCheckVersion>1.0</maturityCheckVersion>
-        <maturityCheckPerformedDate>2020-04-23T11:13:00</maturityCheckPerformedDate>
-        <maturityCheckResultReport>
-            <maturityCheckResultReportSummary>This is an examples summary of the evaluation report linked via PID. Blub ... .</maturityCheckResultReportSummary>
-            <maturityCheckResultReportIdentifier maturityCheckResultReportIdentifierScheme="URL">https://www.this.url.does.not.exist</maturityCheckResultReportIdentifier>
-        </maturityCheckResultReport>
-        <maturityCheckMetrics>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Universally unique identifier</maturityCheckMetricName>
-                <maturityCheckMetricInternalIdentifier>FsF-F1-01D</maturityCheckMetricInternalIdentifier>
-                <maturityCheckMetricResult unit="none">1.0</maturityCheckMetricResult>
-            </maturityCheckMetric>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Persistent identifier</maturityCheckMetricName>
-                <maturityCheckMetricInternalIdentifier>FsF-F1-02D</maturityCheckMetricInternalIdentifier>
-                <maturityCheckMetricResult unit="none">1.0</maturityCheckMetricResult>
-            </maturityCheckMetric>
-            <!-- FAIRsFAIR Developed more metrics but for this example we only show two. -->
-        </maturityCheckMetrics>
+        <schemaVersion>v7.1</schemaVersion>
+        <name>D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories</name>
+        <description>The overall goal of FAIRsFAIR is to accelerate the realization of the goals of the European Open Science Cloud (EOSC) by compiling and disseminating all knowledge, expertise, guidelines, implementations, new trajectories, training and education on FAIR matters. FAIRsFAIR work package 4 (WP4) will support the provision of practical solutions for implementing the FAIR principles through the co-development and implementation of certification schemes for trusted data repositories enabling FAIR research data in the EOSC, and the provision of organizational support and outreach activities. One of the objectives of WP4 is to develop requirements (e.g., metrics) and tools to pilot the FAIR assessment of digital objects, in particular research data objects in trustworthy digital repositories (TDRs).</description>
+        <type typeGeneral="Text">project report</type>
+        <isMachineReadable>False</isMachineReadable>
+        <identifier identifierScheme="DOI" schemeURI="https://doi.org/">10.5281/zenodo.3678716</identifier>
+        <version>1.0</version>
+        <performedBys>
+            <performedBy>
+                <type>Creator</type>
+                <name>Heydebreck, Daniel</name>
+                <identifiers>
+                    <identifier identifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</identifier>
+                </identifiers>
+            </performedBy>
+        </performedBys>
+        <performedDate>2020-04-23T11:13:00</performedDate>
+        <results>
+            <metrics>
+                <metric>
+                    <name>Universally unique identifier</name>
+                    <description>Does the data have a universally unique identifier assigned? (yes/no)</description>
+                    <internalIdentifier>FsF-F1-01D</internalIdentifier>
+                    <result unit="none">1.0</result>
+                </metric>
+                <metric>
+                    <name>Persistent identifier</name>
+                    <description>Does the data have a persistent identifier assigned? (yes/no)</description>
+                    <internalIdentifier>FsF-F1-02D</internalIdentifier>
+                    <result unit="none">1.0</result>
+                </metric>
+                <!-- FAIRsFAIR Developed more metrics but for this example we only show two. -->
+            </metrics>
+        </results>
     </MaturityCheck>
 </resource>
