@@ -30,13 +30,13 @@
             <metrics>
                 <metric>
                     <name>Universally unique identifier</name>
-                    <description>Does the data have a universally unique identifier assigned? (yes/no)</description>
+                    <description>Does the data have a universally unique identifier assigned? Possible values: 0 or 1</description>
                     <internalIdentifier>FsF-F1-01D</internalIdentifier>
                     <result unit="none">1.0</result>
                 </metric>
                 <metric>
                     <name>Persistent identifier</name>
-                    <description>Does the data have a persistent identifier assigned? (yes/no)</description>
+                    <description>Does the data have a persistent identifier assigned? Possible values: 0 or 1</description>
                     <internalIdentifier>FsF-F1-02D</internalIdentifier>
                     <result unit="none">1.0</result>
                 </metric>

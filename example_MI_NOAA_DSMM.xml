@@ -16,7 +16,7 @@
     <MaturityCheck>
         <schemaVersion>v7.1</schemaVersion>
         <name>NOAA Data Stewardship Maturity Matrix (DSMM)</name>
-        <description>Assessing the stewardship maturity of individual datasets is an essential part of ensuring and improving the way datasets are documented, preserved, and disseminated to users. It is a ­critical step towards meeting U.S. federal regulations, organizational requirements, and user needs. However, it is challenging to do so consistently and quantifiably. The Data ­Stewardship Maturity Matrix (DSMM), developed jointly by NOAA’s National Centers for Environmental Information (NCEI) and the Cooperative Institute for Climate and Satellites–North Carolina (CICS-NC), provides a uniform framework for consistently rating stewardship maturity of individual ­datasets in nine key components: preservability, accessibility, usability, production sustainability, data quality assurance, data quality control/monitoring, data quality assessment, transparency/traceability, and data integrity.</description>
+        <description>Assessing the stewardship maturity of individual datasets is an essential part of ensuring and improving the way datasets are documented, preserved, and disseminated to users. It is a ­critical step towards meeting U.S. federal regulations, organizational requirements, and user needs. However, it is challenging to do so consistently and quantifiably. The Data ­Stewardship Maturity Matrix (DSMM), developed jointly by NOAA’s National Centers for Environmental Information (NCEI) and the Cooperative Institute for Climate and Satellites–North Carolina (CICS-NC), provides a uniform framework for consistently rating stewardship maturity of individual ­datasets in nine key components: preservability, accessibility, usability, production sustainability, data quality assurance, data quality control/monitoring, data quality assessment, transparency/traceability, and data integrity. </description>
         <type typeGeneral="Text">report/publication</type>
         <identifier identifierScheme="DOI" schemeURI="https://doi.org">10.2481/dsj.14-049</identifier>
         <version>12/09/2014 Rev.1</version>
@@ -50,7 +50,7 @@
                 </metric>
                 <metric>
                     <name>production sustainability</name>
-                    <description>Production sustainability is addressed in terms of various degrees of commitment for and associated requirements on the product.</description>
+                    <description>Production sustainability is addressed in terms of various degrees of commitment for and associated requirements on the product. Maximum level: 5</description>
                     <result unit="Level">2</result>
                 </metric>
                 <metric>
@@ -65,17 +65,17 @@
                 </metric>
                 <metric>
                     <name>data quality assessment</name>
-                    <description>Data quality assessment is a set of activities designed to ensure that the products are scientifically sound (i.e., building the right thing), by carefully evaluating the product, usually by comparison with similar well-established and validated observations or data product(s).</description>
+                    <description>Data quality assessment is a set of activities designed to ensure that the products are scientifically sound (i.e., building the right thing), by carefully evaluating the product, usually by comparison with similar well-established and validated observations or data product(s). Maximum level: 5</description>
                     <result unit="Level">2</result>
                 </metric>
                 <metric>
                     <name>transparency/traceability</name>
-                    <description>The focus here is on the level of availability of information about the product and how it was created, the level of practices associated with management of documents, source code, and system information, and whether data and publication citations were tracked, such as by utilizing a Digital Object Identifier (DOI) system.</description>
+                    <description>The focus here is on the level of availability of information about the product and how it was created, the level of practices associated with management of documents, source code, and system information, and whether data and publication citations were tracked, such as by utilizing a Digital Object Identifier (DOI) system. Maximum level: 5</description>
                     <result unit="Level">3</result>
                 </metric>
                 <metric>
                     <name>data integrity</name>
-                    <description>Data integrity refers to the validity of data, i.e., the accuracy and consistency of data over its entire lifecycle. The Data integrity component in this version of the stewardship maturity matrix primarily assesses the practices applied to datasets to ensure the data files are free of intentional or unintentional corruption during data transfer, ingest, storage, and dissemination and to ensure data authenticity at access. Commonly utilized technology includes check-sum and digital signature technology.</description>
+                    <description>Data integrity refers to the validity of data, i.e., the accuracy and consistency of data over its entire lifecycle. The Data integrity component in this version of the stewardship maturity matrix primarily assesses the practices applied to datasets to ensure the data files are free of intentional or unintentional corruption during data transfer, ingest, storage, and dissemination and to ensure data authenticity at access. Commonly utilized technology includes check-sum and digital signature technology. Maximum level: 5</description>
                     <result unit="Level">3</result>
                 </metric>
             </metrics>
