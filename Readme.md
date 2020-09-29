@@ -10,10 +10,10 @@ The draft containing the definition of metadata properties and sub-properties is
 
 ## Examples
 
-Also three example cases are provided -- each as `xml` and as `csv` file. The files are:
+Also three example cases are provided -- each as `xml` and as `json` file. The files are:
 
 * `example_MI_*.xml`
-* `example_MI_*.csv`
+* `example_MI_*.json`
 
 The examples are:
 
