@@ -9,34 +9,41 @@
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
     <MaturityCheck>
-        <maturityCheckSchemaVersion>v6.0</maturityCheckSchemaVersion>
-        <maturityCheckName>ARDC FAIR data assessment tool</maturityCheckName>
-        <maturityCheckDescription>Using this tool you will be able to assess the "FAIRness" of a dataset and determine how to enhance its FAIRness (where applicable). You will be asked questions related to the principles underpinning Findable, Accessible, Interoperable and Reusable (FAIR). Once you have answered all the questions in each section you will be given a "green bar" indicator based on your answers in that section, and when all sections are completed, an overall "FAIRness" indicator is provided.</maturityCheckDescription>
-        <maturityCheckResourceType maturityCheckResourceTypeGeneral="Questionaire">web questionaire</maturityCheckResourceType>
-        <maturityCheckIsMachineReadable>no</maturityCheckIsMachineReadable>
-        <maturityCheckIdentifier maturityCheckIdentifierScheme="URL">https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/</maturityCheckIdentifier>
-        <maturityCheckPerformedBy maturityCheckPerformedByType="Creator">
-            <maturityCheckPerformedByName>Neumann, Daniel</maturityCheckPerformedByName>
-            <maturityCheckPerformedByIdentifier maturityCheckPerformedByIdentifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</maturityCheckPerformedByIdentifier>
-        </maturityCheckPerformedBy>
-        <maturityCheckPerformedDate>2020-05-04</maturityCheckPerformedDate>
-        <maturityCheckMetrics>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Findable</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="relative">0.95</maturityCheckMetricResult>
-            </maturityCheckMetric>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Accessible</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="relative">0.9</maturityCheckMetricResult>
-            </maturityCheckMetric>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Interoperable</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="relative">0.75</maturityCheckMetricResult>	
-            </maturityCheckMetric>
-            <maturityCheckMetric>
-                <maturityCheckMetricName>Reusable</maturityCheckMetricName>
-                <maturityCheckMetricResult unit="relative">0.85</maturityCheckMetricResult>
-            </maturityCheckMetric>
-        </maturityCheckMetrics>
+        <schemaVersion>v7.1</schemaVersion>
+        <name>ARDC FAIR data assessment tool</name>
+        <description>Using this tool you will be able to assess the "FAIRness" of a dataset and determine how to enhance its FAIRness (where applicable). You will be asked questions related to the principles underpinning Findable, Accessible, Interoperable and Reusable (FAIR). Once you have answered all the questions in each section you will be given a "green bar" indicator based on your answers in that section, and when all sections are completed, an overall "FAIRness" indicator is provided.</description>
+        <type typeGeneral="Questionaire">web questionaire</type>
+        <isMachineReadable>no</isMachineReadable>
+        <identifier identifierScheme="URL">https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/</identifier>
+        <performedBy> 
+            <type>Creator</type>
+            <name>Neumann, Daniel</name>
+            <identifier identifierScheme="ORCID" schemeURI="https://orcid.org">0000-0001-8574-9093</identifier>
+        </performedBy>
+        <performedDate>2020-05-04</performedDate>
+        <results>
+            <metrics>
+                <metric>
+                    <name>Findable</name>
+                    <description>Making data Findable includes assigning a persistent identifier (like a DOI or Handle ), having rich metadata to describe the data and making sure it is findable through disciplinary and generalist discovery portals (local and international).</description>
+                    <result unit="relative">0.95</result>
+                </metric>
+                <metric>
+                    <name>Accessible</name>
+                    <description>To make data accessible may include making the data open using a standardised protocol. However the data does not necessarily have to be open. There are sometimes good reasons why data cannot be made open, for example privacy concerns, national security or commercial interests. If it is not open there should be clarity and transparency around the conditions governing access and reuse.</description>
+                    <result unit="relative">0.9</result>
+                </metric>
+                <metric>
+                    <name>Interoperable</name>
+                    <description>To be interoperable (i.e. data that is interpretable by a computer, so that they can be automatically combined with other data) the data will need to use community agreed formats, language and vocabularies. The metadata will also need to use a community agreed standards and vocabularies, and contain links to related information using identifiers.</description>
+                    <result unit="relative">0.75</result>	
+                </metric>
+                <metric>
+                    <name>Reusable</name>
+                    <description>Reusable data should maintain its initial richness. For example, it should not be abridged for the purpose of explaining the findings in one particular publication. It needs a clear machine-readable licence and provenance information on how the data was formed. It should also use discipline-specific data and metadata standards to give it rich contextual information that will allow for accurate interpretation and reuse.</description>
+                    <result unit="relative">0.85</result>
+                </metric>
+            </metrics>
+        </results>
     </MaturityCheck>
 </resource>

@@ -1,0 +1,80 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.26050/wdcc/momergombsemep",
+    "additionalType": "Digital",
+    "name": "MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP",
+    "datePublished": "2019",
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "publisher": {
+        "@type": "Organization",
+        "name": "World Data Center for Climate (WDCC) at DKRZ"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "datacite"
+    },
+    "MaturityCheck": {
+        "schemaVersion": "v7.1",
+        "name": "ARDC FAIR data assessment tool",
+        "description": "Using this tool you will be able to assess the \"FAIRness\" of a dataset and determine how to enhance its FAIRness (where applicable). You will be asked questions related to the principles underpinning Findable, Accessible, Interoperable and Reusable (FAIR). Once you have answered all the questions in each section you will be given a \"green bar\" indicator based on your answers in that section, and when all sections are completed, an overall \"FAIRness\" indicator is provided.",
+        "type": {
+            "@typeGeneral": "Questionaire",
+            "#text": "web questionaire"
+        },
+        "isMachineReadable": "no",
+        "identifier": {
+            "@identifierScheme": "URL",
+            "#text": "https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/"
+        },
+        "performedBy": {
+            "type": "Creator",
+            "name": "Neumann, Daniel",
+            "identifier": {
+                "@identifierScheme": "ORCID",
+                "@schemeURI": "https://orcid.org",
+                "#text": "0000-0001-8574-9093"
+            }
+        },
+        "performedDate": "2020-05-04",
+        "results": {
+            "metrics": {
+                "metric": [
+                    {
+                        "name": "Findable",
+                        "description": "Making data Findable includes assigning a persistent identifier (like a DOI or Handle ), having rich metadata to describe the data and making sure it is findable through disciplinary and generalist discovery portals (local and international).",
+                        "result": {
+                            "@unit": "relative",
+                            "#text": "0.95"
+                        }
+                    },
+                    {
+                        "name": "Accessible",
+                        "description": "To make data accessible may include making the data open using a standardised protocol. However the data does not necessarily have to be open. There are sometimes good reasons why data cannot be made open, for example privacy concerns, national security or commercial interests. If it is not open there should be clarity and transparency around the conditions governing access and reuse.",
+                        "result": {
+                            "@unit": "relative",
+                            "#text": "0.9"
+                        }
+                    },
+                    {
+                        "name": "Interoperable",
+                        "description": "To be interoperable (i.e. data that is interpretable by a computer, so that they can be automatically combined with other data) the data will need to use community agreed formats, language and vocabularies. The metadata will also need to use a community agreed standards and vocabularies, and contain links to related information using identifiers.",
+                        "result": {
+                            "@unit": "relative",
+                            "#text": "0.75"
+                        }
+                    },
+                    {
+                        "name": "Reusable",
+                        "description": "Reusable data should maintain its initial richness. For example, it should not be abridged for the purpose of explaining the findings in one particular publication. It needs a clear machine-readable licence and provenance information on how the data was formed. It should also use discipline-specific data and metadata standards to give it rich contextual information that will allow for accurate interpretation and reuse.",
+                        "result": {
+                            "@unit": "relative",
+                            "#text": "0.85"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
+}

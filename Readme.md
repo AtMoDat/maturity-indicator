@@ -8,13 +8,12 @@ This concept only provides metadata fields to insert maturity information. No ma
 
 The draft containing the definition of metadata properties and sub-properties is provided in the [formalization_MI.csv](formalization_MI.csv) file.
 
+## Examples
 
-# Examples
-
-Also three example cases are provided -- each as `xml` and as `csv` file. The files are:
+Also three example cases are provided -- each as `xml` and as `json` file. The files are:
 
 * `example_MI_*.xml`
-* `example_MI_*.csv`
+* `example_MI_*.json`
 
 The examples are:
 
@@ -24,12 +23,10 @@ The examples are:
 | WDCC Quality Maturity Matrix (QMM)           | `_WDCC_Maturity` | https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots                           |
 | ARDC FAIR data assessment tool               | `ARDC_FAIR`      | https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/  |
 | NOAA Data Stewardship Maturity Matrix (DSMM) | `NOAA_DSMM`      | https://doi.org/10.2481/dsj.14-049                                                    |
-| Geospatial User Feedback (GUF) data model    | `GUF`            | https://www.ogc.org/standards/guf                                                     |
-
 
 Note: the examples are currently not up to date.
 
-# Contributors:
+## Contributors
 
 In alphabetic order:
 
@@ -43,7 +40,6 @@ In alphabetic order:
 * Heinke Hoeck, [ORCID: 0000-0002-0131-1404](https://orcid.org/0000-0002-0131-1404)
 * Ted Habermann, [ORCID: 0000-0003-3585-6733](https://orcid.org/0000-0003-3585-6733)
 
-
-# Acknowledgements:
+## Acknowledgements
 
 The Maturity Indicator draft was created within the AtMoDat project (**At**mospheric **Mo**del **Dat**a, https://www.atmodat.de). AtMoDat is funded by the German Federal Ministry for Education and Research within the framework of *Atmosphaeren-Modelldaten: Datenqualitaet, Kurationskriterien und DOI-Branding* (FKZ 16QK02A).

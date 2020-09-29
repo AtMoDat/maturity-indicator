@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.26050/wdcc/momergombsemep",
+    "additionalType": "Digital",
+    "name": "MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP",
+    "datePublished": "2019",
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "publisher": {
+        "@type": "Organization",
+        "name": "World Data Center for Climate (WDCC) at DKRZ"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "datacite"
+    },
+    "MaturityCheck": {
+        "schemaVersion": "v7.1",
+        "name": "Quality Maturity Matrix (QMM)",
+        "description": "DKRZ Data Management Report. Quality Maturity Matrix Checklist for Levels 4 and 5 with Protocols. Contents: 1. Why use Maturity Matrix for Data and Metadata Quality Assessment at DKRZ-LTA; 2. QMM level at DKRZ-LTA; 3. QMM 4 with Checklist Version 15/05/2019; 4. Protocol Template Level 4; 5. QMM Level 5 with Checklist Version 15/05/2019; 6. Protocol Template Level 5; 7. Links",
+        "type": {
+            "@typeGeneral": "Text",
+            "#text": "report/publication"
+        },
+        "isMachineReadable": "yes",
+        "identifier": {
+            "@identifierScheme": "DOI",
+            "@schemeURI": "https://doi.org",
+            "#text": "10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots"
+        },
+        "version": "Mar-2019",
+        "performedBys": {
+            "performedBy": [
+                {
+                    "type": "Publisher",
+                    "name": "WDCC",
+                    "identifiers": {
+                        "identifier": [
+                            {
+                                "@identifierScheme": "ROR",
+                                "@schemeURI": "https://ror.org",
+                                "#text": "03ztgj037"
+                            },
+                            {
+                                "@identifierScheme": "ISNI",
+                                "@schemeURI": "http://isni.org/isni/",
+                                "#text": "0000000403741955"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Creator",
+                    "name": "Neumann, Daniel",
+                    "identifier": {
+                        "@identifierScheme": "ORCID",
+                        "@schemeURI": "https://orcid.org",
+                        "#text": "0000-0001-8574-9093"
+                    }
+                }
+            ]
+        },
+        "performedDate": "2019-12-18",
+        "externalReport": {
+            "summary": "Quality Maturity Matrix Level of doi:10.26050/WDCC/MOMERGOMBSEMEP",
+            "identifier": {
+                "@identifierScheme": "URL",
+                "#text": "https://cera-www.dkrz.de/WDCC/ui/cerasearch/entry?acronym=QMM_MOMERGOMBSEMEP"
+            }
+        },
+        "results": {
+            "summary": "This dataset reaches on average level 4.25 (out of 5).",
+            "metrics": {
+                "metric": [
+                    {
+                        "name": "Consistency",
+                        "description": "Data Organisation and Data Object; Versioning and Controlled Vocabularies (CVs); Data-Metadata Consistency",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "name": "Completeness",
+                        "description": "Existence of Data; Existence of Core Metadata and Provenance",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "name": "Accessibility",
+                        "description": "Technical Data Access by Identifier/Lineage; Core Metadata and Provenance Access by Identifier",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "name": "Accuracy",
+                        "description": "Plausibility; Statistical Anomalies",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "4"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
+}

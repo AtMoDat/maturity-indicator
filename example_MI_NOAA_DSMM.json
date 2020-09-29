@@ -1,0 +1,145 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.26050/wdcc/momergombsemep",
+    "additionalType": "Digital",
+    "name": "MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP",
+    "datePublished": "2019",
+    "schemaVersion": "http://datacite.org/schema/kernel-4",
+    "publisher": {
+        "@type": "Organization",
+        "name": "World Data Center for Climate (WDCC) at DKRZ"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "datacite"
+    },
+    "relatedIdentifiers": {
+        "relatedIdentifier": [
+            {
+                "@relatedIdentifierType": "DOI",
+                "@relationType": "isSupplementedBy",
+                "#text": "10.6084/m9.figshare.1211954"
+            },
+            {
+                "@relatedIdentifierType": "DOI",
+                "@relationType": "isSourceOf",
+                "#text": "10.5334/dsj-2019-041"
+            },
+            {
+                "@relatedIdentifierType": "DOI",
+                "@relationType": "isCitedBy",
+                "#text": "10.5281/ZENODO.3666260"
+            }
+        ]
+    },
+    "MaturityCheck": {
+        "schemaVersion": "v7.1",
+        "name": "NOAA Data Stewardship Maturity Matrix (DSMM)",
+        "description": "Assessing the stewardship maturity of individual datasets is an essential part of ensuring and improving the way datasets are documented, preserved, and disseminated to users. It is a \u00adcritical step towards meeting U.S. federal regulations, organizational requirements, and user needs. However, it is challenging to do so consistently and quantifiably. The Data \u00adStewardship Maturity Matrix (DSMM), developed jointly by NOAA\u2019s National Centers for Environmental Information (NCEI) and the Cooperative Institute for Climate and Satellites\u2013North Carolina (CICS-NC), provides a uniform framework for consistently rating stewardship maturity of individual \u00addatasets in nine key components: preservability, accessibility, usability, production sustainability, data quality assurance, data quality control/monitoring, data quality assessment, transparency/traceability, and data integrity.",
+        "type": {
+            "@typeGeneral": "Text",
+            "#text": "report/publication"
+        },
+        "identifier": {
+            "@identifierScheme": "DOI",
+            "@schemeURI": "https://doi.org",
+            "#text": "10.2481/dsj.14-049"
+        },
+        "version": "12/09/2014 Rev.1",
+        "performedBys": {
+            "performedBy": {
+                "type": "Creator",
+                "name": "Heydebreck, Daniel",
+                "identifiers": {
+                    "identifier": {
+                        "@identifierScheme": "ORCID",
+                        "@schemeURI": "https://orcid.org",
+                        "#text": "0000-0001-8574-9093"
+                    }
+                }
+            }
+        },
+        "performedDate": "2020-07-20",
+        "results": {
+            "summary": "This dataset reaches on average level 2.8.",
+            "metrics": {
+                "metric": [
+                    {
+                        "name": "preservability",
+                        "description": "The focus under the preservability key component is on assessing practices associated with data storage for resilience requirements, i.e., backup or a duplicate copy (redundancy) in a physically separate facility for disaster recovery, and on compliance to community-accepted archive practices and metadata standards. Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "name": "accessibility",
+                        "description": "The maturity of the accessibility key component focuses on whether users can easily find and access data online. It measures whether a dataset is searchable and discoverable for collection only or to the granule level; the latter is considered to be more mature. Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "name": "usability",
+                        "description": "The usability key component focuses on the availability of knowledge about data and the ease of viewing, customizing, and using the data for the whole or a sub-spatial domain or for a whole or a part of the temporal period. Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "name": "production sustainability",
+                        "description": "Production sustainability is addressed in terms of various degrees of commitment for and associated requirements on the product. Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "name": "data quality assurance",
+                        "description": "Data quality assurance is a set of activities or procedures focused on defect prevention to be followed in order to ensure product quality during development. Data quality screening (DQS) is a set of activities intended to ensure the source data are clean. DQS is a commonly used procedure for identifying missing or redundant records, outliers (ranges and variations), and checking for normality (shape and skewness) and linearity (consistency). Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "name": "data quality control/monitoring",
+                        "description": "Data quality control (DQC) is a set of activities taken to evaluate the product to ensure that it conforms to the required specifications. It is product-oriented and focuses on data anomaly detection. It is usually carried out after the product is created or at each major milestone of the product development and processing cycle. It often employs statistical tools with well-established metrics for the user community. Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "name": "data quality assessment",
+                        "description": "Data quality assessment is a set of activities designed to ensure that the products are scientifically sound (i.e., building the right thing), by carefully evaluating the product, usually by comparison with similar well-established and validated observations or data product(s). Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "name": "transparency/traceability",
+                        "description": "The focus here is on the level of availability of information about the product and how it was created, the level of practices associated with management of documents, source code, and system information, and whether data and publication citations were tracked, such as by utilizing a Digital Object Identifier (DOI) system. Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "name": "data integrity",
+                        "description": "Data integrity refers to the validity of data, i.e., the accuracy and consistency of data over its entire lifecycle. The Data integrity component in this version of the stewardship maturity matrix primarily assesses the practices applied to datasets to ensure the data files are free of intentional or unintentional corruption during data transfer, ingest, storage, and dissemination and to ensure data authenticity at access. Commonly utilized technology includes check-sum and digital signature technology. Maximum level: 5",
+                        "result": {
+                            "@unit": "Level",
+                            "#text": "3"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
+}
