@@ -13,7 +13,7 @@
         <relatedIdentifier relatedIdentifierType="DOI" relationType="isSourceOf">10.5334/dsj-2019-041</relatedIdentifier>
         <relatedIdentifier relatedIdentifierType="DOI" relationType="isCitedBy">10.5281/ZENODO.3666260</relatedIdentifier>
     </relatedIdentifiers>
-    <MaturityCheck>
+    <maturityCheck>
         <schemaVersion>v7.1</schemaVersion>
         <name>NOAA Data Stewardship Maturity Matrix (DSMM)</name>
         <description>Assessing the stewardship maturity of individual datasets is an essential part of ensuring and improving the way datasets are documented, preserved, and disseminated to users. It is a ­critical step towards meeting U.S. federal regulations, organizational requirements, and user needs. However, it is challenging to do so consistently and quantifiably. The Data ­Stewardship Maturity Matrix (DSMM), developed jointly by NOAA’s National Centers for Environmental Information (NCEI) and the Cooperative Institute for Climate and Satellites–North Carolina (CICS-NC), provides a uniform framework for consistently rating stewardship maturity of individual ­datasets in nine key components: preservability, accessibility, usability, production sustainability, data quality assurance, data quality control/monitoring, data quality assessment, transparency/traceability, and data integrity. </description>
@@ -80,5 +80,5 @@
                 </metric>
             </metrics>
         </results>
-    </MaturityCheck>
+    </maturityCheck>
 </resource>
