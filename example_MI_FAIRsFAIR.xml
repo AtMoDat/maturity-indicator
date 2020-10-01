@@ -8,7 +8,7 @@
     <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
-    <MaturityCheck>
+    <maturityCheck>
         <schemaVersion>v7.1</schemaVersion>
         <name>D4.1 Draft Recommendations on Requirements for Fair Datasets in Certified Repositories</name>
         <description>The overall goal of FAIRsFAIR is to accelerate the realization of the goals of the European Open Science Cloud (EOSC) by compiling and disseminating all knowledge, expertise, guidelines, implementations, new trajectories, training and education on FAIR matters. FAIRsFAIR work package 4 (WP4) will support the provision of practical solutions for implementing the FAIR principles through the co-development and implementation of certification schemes for trusted data repositories enabling FAIR research data in the EOSC, and the provision of organizational support and outreach activities. One of the objectives of WP4 is to develop requirements (e.g., metrics) and tools to pilot the FAIR assessment of digital objects, in particular research data objects in trustworthy digital repositories (TDRs).</description>
@@ -43,5 +43,5 @@
                 <!-- FAIRsFAIR Developed more metrics but for this example we only show two. -->
             </metrics>
         </results>
-    </MaturityCheck>
+    </maturityCheck>
 </resource>
