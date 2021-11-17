@@ -5,6 +5,7 @@ previously named _Data Maturity Indicator_ (until 2020-07-16), previously named 
 The Maturity Indicator is a draft extension to the DataCite Metadata Schema. The Maturity Indicator would allow to place the results of data maturity checks in the DataCite Metadata in a standardised format. Currently (DataCite Metadata Schema v4.3), such information can only be provided via `relatedIdentifier`.
 
 This concept only provides metadata fields to insert maturity information. No maturity matrix/metric/measure is suggested. Thus, this concept is open to any kind of maturity measure.
+Please also have a look at https://www.atmodat.de/f-output/f-mi.
 
 The draft containing the definition of metadata properties and sub-properties is provided in the [formalization_MI.csv](formalization_MI.csv) file.
 
