@@ -14,7 +14,7 @@ The draft containing the definition of metadata properties and sub-properties is
 Also three example cases are provided -- each as `xml` and as `json` file. The files are:
 
 * `example_MI_*.xml`
-* `example_MI_*.json` (Schema.org JSON)
+* `example_MI_*.json` (Schema.org JSON-LD)
 
 The examples are:
 
