@@ -4,10 +4,12 @@ Currently (DataCite Metadata Schema v4.3), Maturity and assessment report inform
 
 ## Examples
 
-Also three example cases are provided -- each as `xml` and as `json` file. The files are:
+Also three example cases are provided -- each as `xml`  file. The files are:
 
-* `example_MI_*.xml`
-* `example_MI_*.json` (Schema.org JSON-LD)
+* [RelatedIdentifier to ARDC;s FAIR report](/maturity_indicator_w_relatedIdentifiers/example_MI_ARDC_FAIR.xml)
+* [RelatedIdentifier to FAIR'sFAIR report](/maturity_indicator_w_relatedIdentifiers/example_MI_FAIRsFAIR.xml)
+* [RelatedIdentifier to NOAA's FAIR report](/maturity_indicator_w_relatedIdentifiers/example_MI_NOAA_DSMM.xml)
+* [RelatedIdentifier to WDDCC assessment report](/maturity_indicator_w_relatedIdentifiers/example_MI_WDCC_Maturity.xml)
 
 The examples are:
 
