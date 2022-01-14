@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4">
+    <identifier identifierType="DOI">10.26050/WDCC/MOMERGOMBSEMEP</identifier>
+    <!-- dropped `creator` for better readability --> 
+    <titles>
+        <title>MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP</title>
+    </titles>
+    <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
+    <publicationYear>2019</publicationYear>
+    <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
+    <relatedIdentifiers>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="isSupplementedBy">10.6084/m9.figshare.1211954</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="isSourceOf">10.5334/dsj-2019-041</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="DOI" relationType="isCitedBy">10.5281/ZENODO.3666260</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="URL" relatedMetadataScheme="NOAA_DSMM" relationType="HasMetadata" schemeType="Text" schemeURI="https://doi.org/10.2481/dsj.14-049">https://github.com/AtMoDat/maturity-indicator/blob/master/example_MI_NOAA_DSMM.xml</relatedIdentifier>
+    </relatedIdentifiers>
+</resource>

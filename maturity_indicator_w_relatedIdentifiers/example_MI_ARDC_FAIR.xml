@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4">
+    <identifier identifierType="DOI">10.26050/WDCC/MOMERGOMBSEMEP</identifier>
+    <!-- dropped `creator` for better readability --> 
+    <titles>
+        <title>MOM-ERGOM western Baltic Sea simulations with tagging of atmospheric nitrogen deposition by EMEP</title>
+    </titles>
+    <publisher>World Data Center for Climate (WDCC) at DKRZ</publisher>
+    <publicationYear>2019</publicationYear>
+    <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
+    <relatedIdentifiers>
+        <relatedIdentifier relatedIdentifierType="URL" relatedMetadataScheme="ARDC-FAIR" relationType="HasMetadata" schemeType="Text" schemeURI="https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool">https://github.com/AtMoDat/maturity-indicator/blob/master/example_MI_ARDC_FAIR.xml</relatedIdentifier>
+    </relatedIdentifiers>
+</resource>
