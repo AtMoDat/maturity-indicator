@@ -9,6 +9,6 @@
     <publicationYear>2019</publicationYear>
     <resourceType resourceTypeGeneral="Dataset">Digital</resourceType>
     <relatedIdentifiers>
-        <relatedIdentifier relatedIdentifierType="URL" relatedMetadataScheme="WDCC_Maturity" relationType="HasMetadata" schemeType="Text" schemeURI="https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots">https://github.com/AtMoDat/maturity-indicator/blob/master/example_MI_FWDCC_Maturity.xml</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="URL" relatedMetadataScheme="WDCC_Maturity" relationType="HasMetadata" schemeType="Text" schemeURI="https://doi.org/10.2312/WDCC/TR_QMM_Checkl_Levels_4-5_Prots">https://github.com/AtMoDat/maturity-indicator/blob/master/example_MI_WDCC_Maturity.xml</relatedIdentifier>
     </relatedIdentifiers>
 </resource>
